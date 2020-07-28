@@ -1,0 +1,10 @@
+.about-container {
+    display: -webkit-box;
+    display: flex;
+    height: max-content;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 250px;
+}
