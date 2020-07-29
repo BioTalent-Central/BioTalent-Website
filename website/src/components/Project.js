@@ -4,12 +4,15 @@ import React from "react"
 import ProjTitle from "./projects/proj-components/ProjTitle"
 import ProjDescription from "./projects/proj-components/ProjDescription"
 import TeamMember from "./projects/proj-components/TeamMember"
+import Slideshow from "./Slideshow"
 
 function Project() {
 	return(
 		<div>
 			<ProjTitle projTitle="uOttawa BioTalent Projects Summer 2020"/>
-			<p>Insert slideshow of 10 images used for the 10 projects.</p>
+			
+
+			<Slideshow />
 
 			<ProjDescription description="A total of 50 students studying at the University of Ottawa in a variety of different 
 			fields were recruited to contribute to 11 different student-led projects; this includes a central support team 
@@ -31,7 +34,7 @@ function Project() {
 	      		<h2>The Team</h2>
 	      			<div className="images">
 		      			<TeamMember member="Emma Dobson Takoff" image="/images/headshot5.png"/>
-						<TeamMember member="Felix Larouche" image="/images/headshot3.png"/>
+						<TeamMember member="F&eacute;lix Larouche" image="/images/headshot3.png"/>
 						<TeamMember member="Melanie Tambong" image="/images/headshot2.png"/>
 						<TeamMember member="Vivianne Yee" image="/images/headshot1.png"/>
 		  			</div>

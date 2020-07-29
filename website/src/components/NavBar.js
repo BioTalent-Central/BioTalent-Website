@@ -13,9 +13,9 @@ function NavBar() {
 
 			<div className="nav">
 				<ul>
-					<li><a href="#language">EN/FR</a></li>
-					<li><a href="#biotalent">BioTalent</a></li>
-					<li><a href="#opportunities">Opportunities</a></li>
+					<li><a href="#"><NavLink to="/en-fr">EN/FR</NavLink></a></li>
+					<li><a href="#"><NavLink to="/biotalent">BioTalent</NavLink></a></li>
+					<li><a href="#"><NavLink to="/opportunities">Opportunities</NavLink></a></li>
 					<li><a href="#"><NavLink to="/about">About Us</NavLink></a></li>
 					<li className="mydropdown"><a href="javascript:void(0)" className="mydropbtn"><NavLink to="/project">Projects</NavLink></a>
 						<div className="mydropdown-content">
