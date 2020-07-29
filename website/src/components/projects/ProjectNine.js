@@ -1,22 +1,19 @@
 import React from 'react';
 
-import './App.css';
 
 import ProjTitle from "./proj-components/ProjTitle"
 import ProjImage from "./proj-components/ProjImage"
 import ProjDescription from "./proj-components/ProjDescription"
 import ProjExtResources from "./proj-components/ProjExtResources"
-import ProjAboutTeam from "./proj-components/ProjAboutTeam"
-import NavBar from "./components/NavBar"
+import TeamMember from "./proj-components/TeamMember"
 
-function Project() {
+
+function ProjectNine() {
 	return(
 
-		<div className="Project">
-      
-	      <NavBar />
+		<div className="Projects">
 
-	      <ProjTitle projTitle="Project Title"/>
+	      <ProjTitle projTitle="Project Nine"/>
 	      <ProjImage projImage="/images/bio.jpg"/>
 
 	      <ProjDescription description="Project overview goes here"/> 
@@ -24,17 +21,18 @@ function Project() {
 
 	      <ProjExtResources resources="If applicable, add links to team's websites, partners, etc."/>
 
-	      <ProjAboutTeam 
-	        image1="/images/headshot1.png"
-	        image2="/images/headshot2.png"
-	        image3="/images/headshot3.png"
-	        image4="/images/headshot4.png"
-	        image5="/images/headshot5.png"
-	      />
-      
+	      <div className="about-the-team">
+	      	<h2>The Team</h2>
+	      		<div className="images">
+	      			<TeamMember member="Wendy" image="/images/headshot1.png"/>
+					<TeamMember member="Wesley" image="/images/headshot3.png"/>
+					<TeamMember member="William" image="/images/headshot4.png"/>
+		  		</div>
+		  </div>
+     
     	</div>
 
 	)
 }
 
-export default Project
+export default ProjectNine

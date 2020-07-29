@@ -16,22 +16,22 @@ function NavBar() {
 					<li><a href="#language">EN/FR</a></li>
 					<li><a href="#biotalent">BioTalent</a></li>
 					<li><a href="#opportunities">Opportunities</a></li>
-					<li><a href="#about">About Us</a></li>
-					<li className="mydropdown"><a href="javascript:void(0)" class="mydropbtn">Projects</a>
-						<div class="mydropdown-content">
-							<NavLink to="/project">Project 1</NavLink>
-							<a href="#">Project 2</a>
-							<a href="#">Project 3</a>
-							<a href="#">Project 4</a>
-							<a href="#">Project 5</a>
-							<a href="#">Project 6</a>
-							<a href="#">Project 7</a>
-							<a href="#">Project 8</a>
-							<a href="#">Project 9</a>
-							<a href="#">Project 10</a>
+					<li><a href="#"><NavLink to="/about">About Us</NavLink></a></li>
+					<li className="mydropdown"><a href="javascript:void(0)" className="mydropbtn"><NavLink to="/project">Projects</NavLink></a>
+						<div className="mydropdown-content">
+							<NavLink to="/project1">Project 1</NavLink>
+							<NavLink to="/project2">Project 2</NavLink>
+							<NavLink to="/project3">Project 3</NavLink>
+							<NavLink to="/project4">Project 4</NavLink>
+							<NavLink to="/project5">Project 5</NavLink>
+							<NavLink to="/project6">Project 6</NavLink>
+							<NavLink to="/project7">Project 7</NavLink>
+							<NavLink to="/project8">Project 8</NavLink>
+							<NavLink to="/project9">Project 9</NavLink>
+							<NavLink to="/project10">Project 10</NavLink>
 						</div>
 					</li>
-					<li><NavLink to="/">Home</NavLink></li>
+					<li><a href="#"><NavLink to="/">Home</NavLink></a></li>
 				</ul>
 			</div>
 

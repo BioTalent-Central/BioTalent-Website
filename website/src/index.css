@@ -13,6 +13,11 @@ h1, h2{
   color: #1d1e3e;
 }
 
+/* 
+PROJECT PAGES
+=============
+*/
+
 .proj-image{
 	width:750px;
 }
@@ -73,6 +78,7 @@ TEAM MEMBER IMAGES AND NAMES
 
 /* 
 NAV BAR
+=======
 */
 
 .big-logo {
@@ -91,7 +97,9 @@ NAV BAR
 }
 .nav li {
   float: right;
+  text-align: center;
 }
+
 .nav li a, .mydropbtn {
   display: inline-block;
   color: #641c30;
@@ -119,7 +127,7 @@ li.mydropdown {
   width: 170px;
 }
 
-.mydropdown-content a {
+.mydropdown-content NavLink {
   color: #fffdfb;
   padding: 10px;
   text-decoration: none;
@@ -127,7 +135,7 @@ li.mydropdown {
   text-align: left;
 }
 
-.mydropdown-content a:hover {background-color: #405A67;}
+.mydropdown-content NavLink:hover {background-color: #405A67;}
 
 .mydropdown:hover .mydropdown-content {
   display: block;
