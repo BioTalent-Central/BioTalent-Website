@@ -3,18 +3,18 @@ import { BrowserRouter, Route, Switch } from "react-router-dom"
 
 import './App.css';
 
-import NavBar from "./components/NavBar"
-import Project from "./components/Project"
-import ProjectOne from "./components/projects/ProjectOne"
-import ProjectTwo from "./components/projects/ProjectTwo"
-import ProjectThree from "./components/projects/ProjectThree"
-import ProjectFour from "./components/projects/ProjectFour"
-import ProjectFive from "./components/projects/ProjectFive"
-import ProjectSix from "./components/projects/ProjectSix"
-import ProjectSeven from "./components/projects/ProjectSeven"
-import ProjectEight from "./components/projects/ProjectEight"
-import ProjectNine from "./components/projects/ProjectNine"
-import ProjectTen from "./components/projects/ProjectTen"
+import NavBar from "./Components/NavBar"
+import Project from "./Components/Project"
+import ProjectOne from "./Components/projects/ProjectOne"
+import ProjectTwo from "./Components/projects/ProjectTwo"
+import ProjectThree from "./Components/projects/ProjectThree"
+import ProjectFour from "./Components/projects/ProjectFour"
+import ProjectFive from "./Components/projects/ProjectFive"
+import ProjectSix from "./Components/projects/ProjectSix"
+import ProjectSeven from "./Components/projects/ProjectSeven"
+import ProjectEight from "./Components/projects/ProjectEight"
+import ProjectNine from "./Components/projects/ProjectNine"
+import ProjectTen from "./Components/projects/ProjectTen"
 
 
 function App() {
