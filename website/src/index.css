@@ -5,6 +5,7 @@ body {
 p{
 	font-family: "Times New Roman", Times, serif;
 	color: #1d1e3e;
+	margin: 0px 40px;
 }
 
 h1, h2{
@@ -29,6 +30,7 @@ TEAM MEMBER IMAGES AND NAMES
 .images{
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .headshots {
@@ -75,6 +77,41 @@ TEAM MEMBER IMAGES AND NAMES
   transform: translate(-50%, -50%);
 }
 
+.member{
+	font-size: 20px;
+	font-family: Copperplate;
+}
+
+.team-members{
+	font-size: 22px;
+	font-family: Copperplate;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+/* 
+SLIDESHOW
+*/
+
+
+.each-slide > div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+  padding: 10px;
+}
+
+.each-slide span{
+  padding: 10px;
+  font-size: 20px;
+  background: #405a67;
+  color: #fffdfb;
+  text-align: center;
+  align-items: baseline;
+}
+
 
 /* 
 NAV BAR
@@ -106,9 +143,10 @@ NAV BAR
   font-family: Copperplate;
   font-weight: bold;
   text-align: center;
-  padding: 10px;
+  padding: 7px;
   text-decoration: none;
 }
+
 .nav li a:hover, .mydropdown:hover .mydropbtn{
   background-color: #1d1e3e;
   color: #fffdfb;
@@ -127,7 +165,7 @@ li.mydropdown {
   width: 170px;
 }
 
-.mydropdown-content NavLink {
+.mydropdown-content a{
   color: #fffdfb;
   padding: 10px;
   text-decoration: none;
@@ -135,8 +173,33 @@ li.mydropdown {
   text-align: left;
 }
 
-.mydropdown-content NavLink:hover {background-color: #405A67;}
+.mydropdown-content a:hover {background-color: #405A67;}
 
 .mydropdown:hover .mydropdown-content {
   display: block;
+}
+
+
+
+
+.nav-two {
+	overflow: hidden;
+	background-color: #979797;
+	position: relative;
+}
+
+
+.nav-two a{
+	float: right;
+	color: #641c30;
+	padding: 10px;
+	text-decoration: none;
+	font-family: Copperplate;
+  	font-weight: bold;
+  	display: block;
+}
+
+.nav-two a:hover{
+	background-color: #1d1e3e;
+  	color: #fffdfb;
 }

@@ -5,6 +5,9 @@ function ProjDescription(props){
 		<div className="description">
 			<h2>Overview</h2>
         	<p>{props.description}</p>
+        	<br/>
+        	<p>{props.motivation}</p>
+        	<br/>
         </div>
 	)
 }

@@ -2,13 +2,13 @@ import React from "react"
 
 function TeamMember(props) {
 	return(
-		<div className="img-container">
-			<img className="headshots"
-				src={props.image} 
-			/>
-			<div className="middle">
-				<div className="img-text">{props.member}</div>
-			</div>
+		<div>
+
+			<p className="member">{props.member}</p>
+			<p>{props.year} year student studying {props.program} at the University of Ottawa</p>
+			<p>Graduated from {props.hs}, in {props.city}, in {props.gradyear}</p>
+			<br/>
+			
 		</div>
 	)
 }
