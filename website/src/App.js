@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 
 import './App.css';
-import AboutUs from "./Components/About/aboutus"
 
 import NavBar from "./Components/NavBar"
 import Project from "./Components/Project"
@@ -16,6 +15,8 @@ import ProjectSeven from "./Components/projects/ProjectSeven"
 import ProjectEight from "./Components/projects/ProjectEight"
 import ProjectNine from "./Components/projects/ProjectNine"
 import ProjectTen from "./Components/projects/ProjectTen"
+import aboutus from './Components/About/aboutus';
+import opportunities from './Components/Opportunities/opportunities';
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
         <NavBar />
         <Switch>
             <Route path="/project" component={Project}/>
-            // <Route path="/about" component={Project}/>
+            <Route path="/about" component={aboutus} />
+            <Route path="opportunities" component={opportunities}/>
             <Route path="/project1" component={ProjectOne}/>
             <Route path="/project2" component={ProjectTwo}/>
             <Route path="/project3" component={ProjectThree}/>
