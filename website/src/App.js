@@ -2,7 +2,10 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 
 import './App.css';
+<<<<<<< HEAD
 import AboutUs from "./components/About/aboutus"
+=======
+>>>>>>> dev
 
 import NavBar from "./components/NavBar"
 import Project from "./components/Project"
@@ -16,6 +19,11 @@ import ProjectSeven from "./components/projects/ProjectSeven"
 import ProjectEight from "./components/projects/ProjectEight"
 import ProjectNine from "./components/projects/ProjectNine"
 import ProjectTen from "./components/projects/ProjectTen"
+<<<<<<< HEAD
+=======
+import aboutus from './components/About/aboutus';
+import opportunities from './components/Opportunities/opportunities';
+>>>>>>> dev
 
 
 function App() {
@@ -25,7 +33,8 @@ function App() {
         <NavBar />
         <Switch>
             <Route path="/project" component={Project}/>
-            // <Route path="/about" component={Project}/>
+            <Route path="/about" component={aboutus} />
+            <Route path="opportunities" component={opportunities}/>
             <Route path="/project1" component={ProjectOne}/>
             <Route path="/project2" component={ProjectTwo}/>
             <Route path="/project3" component={ProjectThree}/>
@@ -38,7 +47,7 @@ function App() {
             <Route path="/project10" component={ProjectTen}/>
           </Switch>
     </BrowserRouter>
-  )
+    
     </div>
   )
 }
