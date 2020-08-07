@@ -19,11 +19,10 @@ import ProjectSeven from "./components/projects/ProjectSeven"
 import ProjectEight from "./components/projects/ProjectEight"
 import ProjectNine from "./components/projects/ProjectNine"
 import ProjectTen from "./components/projects/ProjectTen"
-<<<<<<< HEAD
-=======
+
 import aboutus from './components/About/aboutus';
 import opportunities from './components/Opportunities/opportunities';
->>>>>>> dev
+
 
 
 function App() {
