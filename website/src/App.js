@@ -40,7 +40,6 @@ function App() {
             <Route path="/project10" component={ProjectTen}/>
           </Switch>
     </BrowserRouter>
-  )
     </div>
   )
 }

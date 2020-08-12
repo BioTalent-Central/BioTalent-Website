@@ -1,10 +1,21 @@
-.about-container {
-    display: -webkit-box;
-    display: flex;
-    height: max-content;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 100px 250px;
+.aboutusHeaders{
+    font-family: Copperplate;
+    font-weight: bold;
+    color : #1d1e3e;
+    margin-top: 50px;
+    font-size: 40px;
+
 }
+
+.aboutusHeadersMAIN{
+    font-size: 60px;
+}
+
+.aboutus-text-container{
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+
+
