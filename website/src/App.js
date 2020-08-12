@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from "react-router-dom"
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom"
 
 import './App.css';
 
@@ -17,6 +17,7 @@ import ProjectNine from "./Components/projects/ProjectNine"
 import ProjectTen from "./Components/projects/ProjectTen"
 import aboutus from './Components/About/aboutus';
 import opportunities from './Components/Opportunities/opportunities';
+import home from './Components/Home/home';
 
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
       <BrowserRouter>     
         <NavBar />
         <Switch>
+            <Redirect from="/" exact to="/home"/>
+            <Route path="/home" component={home}/>
             <Route path="/project" component={Project}/>
             <Route path="/about" component={aboutus} />
             <Route path="opportunities" component={opportunities}/>
