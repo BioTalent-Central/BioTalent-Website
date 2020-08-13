@@ -15,7 +15,7 @@ function ProjectEight() {
 
 		<div className="Projects">
 
-	      <ProjTitle projTitle="Project Eight"/>
+	      <ProjTitle projTitle="Biocomputing"/>
 	      <ProjImage projImage="/images/bio.jpg"/>
 
 	      <ProjDescription 
@@ -29,11 +29,12 @@ function ProjectEight() {
 	      <div className="about-the-team">
 	      	<h2>The Team</h2>
 	      		<div className="images">
-	      			<TeamMemberImage member="Lucy" image="/images/headshot1.png"/>
-					<TeamMemberImage member="Leah" image="/images/headshot2.png"/>
-					<TeamMemberImage member="Luke" image="/images/headshot3.png"/>
-					<TeamMemberImage member="Liam" image="/images/headshot4.png"/>
-					<TeamMemberImage member="Lilly" image="/images/headshot5.png"/>
+	      			<TeamMemberImage member="Roy Hwang" image="/images/headshot1.png"/>
+					<TeamMemberImage member="Faven Ghilazghi" image="/images/headshot2.png"/>
+					<TeamMemberImage member="Jasmine Sodhi" image="/images/headshot3.png"/>
+					<TeamMemberImage member="Siana Kong" image="/images/headshot4.png"/>
+					<TeamMemberImage member="S&eacute;bastien Girard" image="/images/headshot5.png"/>
+					<TeamMemberImage member="Atinderpaul Kanwar" image="/images/headshot5.png"/>
 		  		</div>
 
 		  		<div className="team-info">
@@ -41,14 +42,48 @@ function ProjectEight() {
 
 		  				<p className="team-members">Supervisor</p>
 
-		  				<Supervisor name="Name"
-		  					title="Title"
+		  				<Supervisor name="Mads Kaern"
 		  					work="Work"
 		  					email="email@gmail.com"/>
 
 		  				<p className="team-members">Research Assistants</p>
 
-		  				<TeamMember member="Member 1" 
+		  				<TeamMember member="Roy Hwang" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Faven Ghilazghi" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Jasmine Sodhi" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Siana Kong" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="S&eacute;bastien Girard" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Antinderpaul Kanwar" 
 		  					year="First" 
 		  					program="Biology"
 		  					hs="High School"

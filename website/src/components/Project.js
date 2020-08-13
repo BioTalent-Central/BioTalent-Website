@@ -35,7 +35,7 @@ function Project() {
 			<div className="about-the-team">
 			
 	      			<div className="images">
-		      			<TeamMemberImage member="Emma Dobson Takoff" image="/images/headshot5.png"/>
+		      			<TeamMemberImage member="Emma Dobson Takoff" image="/images/DobsonTakoff.jpg"/>
 						<TeamMemberImage member="F&eacute;lix Larouche" image="/images/headshot3.png"/>
 						<TeamMemberImage member="Melanie Tambong" image="/images/headshot2.png"/>
 						<TeamMemberImage member="Vivianne Yee" image="/images/headshot1.png"/>
@@ -45,11 +45,8 @@ function Project() {
 
 		  				<p className="team-members">Supervisor</p>
 
-		  				<Supervisor name="Mads Kaern"
-		  					title="BSc Chemistry, University of Copenhagen | MSc Chemistry, University of Copenhagen | PhD Chemistry, University of Toronto"
-		  					work="Associate Professor"
-		  					work2="Principal Investigator, Ottawa Institute of 
-		  						Systems Biology Cross-appointed to the Faculty of Science, Department of Physics"
+		  				<Supervisor name="Mads Kaern, BSc, MSc, PhD."
+		  					work="Department of Cellular and Molecular Medecine, University of Ottawa"
 		  					email="mkaern@uottawa.ca"/>
 
 		  				<p className="team-members">Research Assistants</p>
@@ -58,19 +55,19 @@ function Project() {
 		  					year="First" 
 		  					program="Software Engineering"
 		  					hs="Sir Robert Borden High School"
-		  					city="Ottawa, ON"
+		  					city="Ottawa"
 		  					gradyear="2019"/>
 
 		  				<TeamMember member="F&eacute;lix Larouche" 
 		  					year="First" 
 		  					program="Software Engineering"
-		  					hs="High School"
-		  					city="***"
+		  					hs="Cégep de l'Outaouais"
+		  					city="Gatineau"
 		  					gradyear="***"/>
 
 		  				<TeamMember member="Melanie Tambong" 
 		  					year="Second" 
-		  					program="Commerce"
+		  					program="Commerce (Management)"
 		  					hs="High School"
 		  					city="***"
 		  					gradyear="***"/>
@@ -78,9 +75,9 @@ function Project() {
 		  				<TeamMember member="Vivianne Yee" 
 		  					year="First" 
 		  					program="Software Engineering"
-		  					hs="High School"
-		  					city="***"
-		  					gradyear="***"/>
+		  					hs="Mississauga Secondary School"
+		  					city="Mississauga"
+		  					gradyear="2019"/>
 
 		  			</div>
 		  	</div>

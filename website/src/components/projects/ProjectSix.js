@@ -15,7 +15,7 @@ function ProjectSix() {
 
 		<div className="Projects">
 
-	      <ProjTitle projTitle="Project Six"/>
+	      <ProjTitle projTitle="uOttawa BioMakerspace"/>
 	      <ProjImage projImage="/images/bio.jpg"/>
 
 	      <ProjDescription 
@@ -29,11 +29,16 @@ function ProjectSix() {
 	      <div className="about-the-team">
 	      	<h2>The Team</h2>
 	      		<div className="images">
-	      			<TeamMemberImage member="Diana" image="/images/headshot1.png"/>
-					<TeamMemberImage member="Daniella" image="/images/headshot2.png"/>
-					<TeamMemberImage member="David" image="/images/headshot3.png"/>
-					<TeamMemberImage member="Dan" image="/images/headshot4.png"/>
-					<TeamMemberImage member="Denise" image="/images/headshot5.png"/>
+	      			<TeamMemberImage member="Marie-Pier Laberge" image="/images/headshot1.png"/>
+					<TeamMemberImage member="Sireen Hallal" image="/images/headshot2.png"/>
+					<TeamMemberImage member="Stephanie Partheniou" image="/images/headshot3.png"/>
+					<TeamMemberImage member="Jeremy Yau" image="/images/headshot4.png"/>
+					<TeamMemberImage member="Zachary Leduc" image="/images/headshot5.png"/>
+					<TeamMemberImage member="Idil Ismail" image="/images/headshot1.png"/>
+					<TeamMemberImage member="Therese Marie Pauline Sarr" image="/images/headshot2.png"/>
+					<TeamMemberImage member="Zain Malik" image="/images/headshot3.png"/>
+					<TeamMemberImage member="Anthony Lai" image="/images/headshot4.png"/>
+					<TeamMemberImage member="Vivienne Cruz" image="/images/headshot5.png"/>
 		  		</div>
 
 		  		<div className="team-info">
@@ -41,14 +46,76 @@ function ProjectSix() {
 
 		  				<p className="team-members">Supervisor</p>
 
-		  				<Supervisor name="Name"
-		  					title="Title"
+		  				<Supervisor name="Mads Kaern"
 		  					work="Work"
 		  					email="email@gmail.com"/>
 
 		  				<p className="team-members">Research Assistants</p>
 
-		  				<TeamMember member="Member 1" 
+		  				<TeamMember member="Marie-Pier Laberge" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Sireen Hallal" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Stephanie Partheniou" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Jeremy Yau" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Zachary Leduc" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Idil Ismael" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Therese Marie Pauline Sarr" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Zain Malik" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Anthony Lai" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Vivienne Cruz" 
 		  					year="First" 
 		  					program="Biology"
 		  					hs="High School"

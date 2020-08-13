@@ -2,10 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from "react-router-dom"
 
 import './App.css';
-<<<<<<< HEAD
-import AboutUs from "./components/About/aboutus"
-=======
->>>>>>> dev
+
 
 import NavBar from "./components/NavBar"
 import Project from "./components/Project"

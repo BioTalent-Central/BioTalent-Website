@@ -22,16 +22,16 @@ function NavBar() {
 						<NavLink to="/project">Projects</NavLink>
 						</a>
 						<div className="mydropdown-content">
-							<NavLink to="/project1">Project 1</NavLink>
-							<NavLink to="/project2">Project 2</NavLink>
-							<NavLink to="/project3">Project 3</NavLink>
-							<NavLink to="/project4">Project 4</NavLink>
-							<NavLink to="/project5">Project 5</NavLink>
-							<NavLink to="/project6">Project 6</NavLink>
-							<NavLink to="/project7">Project 7</NavLink>
-							<NavLink to="/project8">Project 8</NavLink>
-							<NavLink to="/project9">Project 9</NavLink>
-							<NavLink to="/project10">Project 10</NavLink>
+							<NavLink to="/project1">COVID-19 Point-of-care Testing</NavLink>
+							<NavLink to="/project2">Inflammation and CBD</NavLink>
+							<NavLink to="/project3">Microbrewery and Craft Distilleries</NavLink>
+							<NavLink to="/project4">The Potential of the Natural Resources of Quebec's Lower North Shore</NavLink>
+							<NavLink to="/project5">Policy Horizons</NavLink>
+							<NavLink to="/project6">uOttawa BioMakerspace</NavLink>
+							<NavLink to="/project7">3D Bioprinters</NavLink>
+							<NavLink to="/project8">Biocomputing</NavLink>
+							<NavLink to="/project9">Detection and Characterization of Microplastics</NavLink>
+							<NavLink to="/project10">Remediation of Microplastics</NavLink>
 						</div>
 					</li>
 					<li><a href="#"><NavLink to="/">Home</NavLink></a></li>

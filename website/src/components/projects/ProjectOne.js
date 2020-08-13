@@ -15,7 +15,7 @@ function ProjectOne() {
 
 		<div className="Projects">
 
-	      <ProjTitle projTitle="Project One"/>
+	      <ProjTitle projTitle="COVID-19 Point-of-care Testing"/>
 	      <ProjImage projImage="/images/bio.jpg"/>
 
 	      <ProjDescription 
@@ -29,11 +29,12 @@ function ProjectOne() {
 	      <div className="about-the-team">
 	      	<h2>The Team</h2>
 	      		<div className="images">
-	      			<TeamMemberImage member="Member 1" image="/images/headshot1.png"/>
-					<TeamMemberImage member="Member 2" image="/images/headshot2.png"/>
-					<TeamMemberImage member="Member 3" image="/images/headshot3.png"/>
-					<TeamMemberImage member="Member 4" image="/images/headshot4.png"/>
-					<TeamMemberImage member="Member 5" image="/images/headshot5.png"/>
+	      			<TeamMemberImage member="Cian Ward" image="/images/headshot1.png"/>
+					<TeamMemberImage member="Hertek Gill" image="/images/headshot2.png"/>
+					<TeamMemberImage member="Isabella Aragon" image="/images/headshot3.png"/>
+					<TeamMemberImage member="Prisha Shetty" image="/images/headshot4.png"/>
+					<TeamMemberImage member="Shan Shen" image="/images/headshot5.png"/>
+					<TeamMemberImage member="Robert Demerjian" image="/images/headshot4.png"/>
 		  		</div>
 
 		  		<div className="team-info">
@@ -41,18 +42,52 @@ function ProjectOne() {
 
 		  				<p className="team-members">Supervisor</p>
 
-		  				<Supervisor name="Name"
-		  					title="Title"
+		  				<Supervisor name="Mads Kaern"
 		  					work="Work"
 		  					email="email@gmail.com"/>
 
 		  				<p className="team-members">Research Assistants</p>
 
-		  				<TeamMember member="Member 1" 
+		  				<TeamMember member="Cian Ward" 
 		  					year="First" 
 		  					program="Biology"
 		  					hs="High School"
-		  					city="Ottawa, ON"
+		  					city="Ottawa"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Hertek Gill" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Isabella Aragon" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Prisha Shetty" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Shan Shen" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Robert Demerjian" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa"
 		  					gradyear="2020"/>
 
 		  		</div>

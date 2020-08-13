@@ -15,7 +15,7 @@ function ProjectFive() {
 
 		<div className="Projects">
 
-	      <ProjTitle projTitle="Project Five"/>
+	      <ProjTitle projTitle="Policy Horizons"/>
 	      <ProjImage projImage="/images/bio.jpg"/>
 
 	      <ProjDescription 
@@ -29,8 +29,9 @@ function ProjectFive() {
 	      <div className="about-the-team">
 	      	<h2>The Team</h2>
 	      		<div className="images">
-	      			<TeamMemberImage member="Rebecca" image="/images/headshot1.png"/>
-					<TeamMemberImage member="Riley" image="/images/headshot2.png"/>
+	      			<TeamMemberImage member="Evan Larmand" image="/images/headshot1.png"/>
+					<TeamMemberImage member="Rishan Vaitheeswarren" image="/images/headshot2.png"/>
+					<TeamMemberImage member="Hussein Canoe" image="/images/headshot2.png"/>
 		  		</div>
 
 		  		<div className="team-info">
@@ -38,14 +39,31 @@ function ProjectFive() {
 
 		  				<p className="team-members">Supervisor</p>
 
-		  				<Supervisor name="Name"
-		  					title="Title"
+		  				<Supervisor name="Pierre-Olivier DesMarchais"
+		  					work="Work"
+		  					email="email@gmail.com"/>
+
+		  				<Supervisor name="Avalyne Diotte"
 		  					work="Work"
 		  					email="email@gmail.com"/>
 
 		  				<p className="team-members">Research Assistants</p>
 
-		  				<TeamMember member="Member 1" 
+		  				<TeamMember member="Evan Larmand" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Rishan Vaitheeswarren" 
+		  					year="First" 
+		  					program="Biology"
+		  					hs="High School"
+		  					city="Ottawa, ON"
+		  					gradyear="2020"/>
+
+		  				<TeamMember member="Hussein Canoe" 
 		  					year="First" 
 		  					program="Biology"
 		  					hs="High School"
