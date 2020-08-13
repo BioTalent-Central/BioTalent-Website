@@ -15,10 +15,11 @@ import ProjectSeven from "./components/projects/ProjectSeven"
 import ProjectEight from "./components/projects/ProjectEight"
 import ProjectNine from "./components/projects/ProjectNine"
 import ProjectTen from "./components/projects/ProjectTen"
-import aboutus from './components/About/aboutus';
-import opportunities from './components/Opportunities/opportunities';
-import home from './components/Home/home';
+import aboutus from './components/About/aboutus'
+import opportunities from './components/Opportunities/opportunities'
+import home from './components/Home/home'
 import BioTalent from './components/BioTalent page/BioTalentPage'
+import Footer from './components/Home/footer'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
     <div className="App">
       <BrowserRouter>     
         <NavBar />
+      
         <Switch>
             <Redirect from="/" exact to="/home"/>
             <Route path="/home" component={home}/>
@@ -43,7 +45,8 @@ function App() {
             <Route path="/project8" component={ProjectEight}/>
             <Route path="/project9" component={ProjectNine}/>
             <Route path="/project10" component={ProjectTen}/>
-          </Switch>
+        </Switch>
+        <Footer />
     </BrowserRouter>
     </div>
   )

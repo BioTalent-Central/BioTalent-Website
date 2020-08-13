@@ -13,7 +13,6 @@ function home() {
       <HomeSlideShow/>
       <Overview/>
       <Content/>
-      <Footer/>
 
     </div>
   )
