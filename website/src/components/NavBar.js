@@ -6,7 +6,7 @@ function NavBar() {
 		<div className="header">
 			
 			<div className="logo">
-				<NavLink to="/">
+				<NavLink to="/home">
 					<img className="big-logo" src="/images/Dark.png" alt="uOttawa BioTalent Large Logo" />
 				</NavLink>
 			</div>
@@ -34,7 +34,7 @@ function NavBar() {
 							<NavLink to="/project10">Remediation of Microplastics</NavLink>
 						</div>
 					</li>
-					<li><a href="#"><NavLink to="/">Home</NavLink></a></li>
+					<li><a href="#"><NavLink to="/home">Home</NavLink></a></li>
 				</ul>
 			</div>
 

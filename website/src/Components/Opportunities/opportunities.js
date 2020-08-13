@@ -1,11 +1,11 @@
-import React from 'react-dom';
+import React from 'react';
 import './opportunities.css';
 
 
 function opportunities(){
     return(
         <div>
-
+            Hello world!
         </div>
     )
 }

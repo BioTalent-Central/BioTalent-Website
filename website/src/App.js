@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from "react-router-dom"
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom"
 
 import './App.css';
 
@@ -19,6 +19,8 @@ import ProjectTen from "./components/projects/ProjectTen"
 
 import aboutus from './components/About/aboutus';
 import opportunities from './components/Opportunities/opportunities';
+import home from './components/Home/home';
+import BioTalent from './components/BioTalent page/BioTalentPage'
 
 
 
@@ -28,9 +30,12 @@ function App() {
       <BrowserRouter>     
         <NavBar />
         <Switch>
+            <Redirect from="/" exact to="/home"/>
+            <Route path="/home" component={home}/>
             <Route path="/project" component={Project}/>
             <Route path="/about" component={aboutus} />
-            <Route path="opportunities" component={opportunities}/>
+            <Route path="/opportunities" component={opportunities} />
+            <Route path="/biotalent" component={BioTalent}/>
             <Route path="/project1" component={ProjectOne}/>
             <Route path="/project2" component={ProjectTwo}/>
             <Route path="/project3" component={ProjectThree}/>
@@ -43,7 +48,10 @@ function App() {
             <Route path="/project10" component={ProjectTen}/>
           </Switch>
     </BrowserRouter>
+<<<<<<< HEAD
     
+=======
+>>>>>>> dev
     </div>
   )
 }
