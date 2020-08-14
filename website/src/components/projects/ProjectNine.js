@@ -29,8 +29,8 @@ function ProjectNine() {
 	      <div className="about-the-team">
 	      	<h2>The Team</h2>
 	      		<div className="images">
-	      			<TeamMemberImage member="Elijah Cranmer-Bobbie" image="/images/Cranmer-Bobbie.jpg"/>
-					<TeamMemberImage member="Shadia Khad" image="/images/Khad.jpg"/>
+	      			<TeamMemberImage member="Elijah Cranmer-Bobbie" image="/images/project-nine/Cranmer-Bobbie.jpg"/>
+					<TeamMemberImage member="Shadia Khad" image="/images/project-nine/Khad.jpg"/>
 		  		</div>
 
 		  		<div className="team-info">

@@ -16,7 +16,7 @@ function ProjectTwo() {
 		<div className="Projects">
 
 	      <ProjTitle projTitle="Inflammation and CBD"/>
-	      <ProjImage projImage="/images/CBD.jpg"/>
+	      <ProjImage projImage="/images/project-two/CBD.jpg"/>
 
 	      <ProjDescription 
 	      	description="While most patients of the current COVID-19 pandemic show mild to no symptoms, other patients deteriorate into a life-and-death situation, at least partially attributed to patients’ own immune systems overreacting to the invasion of the virus, a phenomenon known as “cytokine storm”. The COVID-MED team will conduct an online, in-depth search of peer-reviewed scientific literature, such as academic journals, in order to gather information about the effects of CBD on cytokine storm, determine its potential for treating autoimmune diseases and cancer.
@@ -28,9 +28,9 @@ function ProjectTwo() {
 	      <div className="about-the-team">
 	      	<h2>The Team</h2>
 	      		<div className="images">
-	      			<TeamMemberImage member="Gisele Law" image="/images/Law.jpg"/>
-					<TeamMemberImage member="Luke Bachetti" image="/images/Bachetti.jpg"/>
-					<TeamMemberImage member="Sarah Derikx" image="/images/Derikx.JPG"/>
+	      			<TeamMemberImage member="Gisele Law" image="/images/project-two/Law.jpg"/>
+					<TeamMemberImage member="Luke Bachetti" image="/images/project-two/Bachetti.jpg"/>
+					<TeamMemberImage member="Sarah Derikx" image="/images/project-two/Derikx.JPG"/>
 		  		</div>
 
 		  		<div className="team-info">

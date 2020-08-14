@@ -35,7 +35,7 @@ function Project() {
 			<div className="about-the-team">
 			
 	      			<div className="images">
-		      			<TeamMemberImage member="Emma Dobson Takoff" image="/images/DobsonTakoff.jpg"/>
+		      			<TeamMemberImage member="Emma Dobson Takoff" image="/images/project-central/DobsonTakoff.jpg"/>
 						<TeamMemberImage member="F&eacute;lix Larouche" image="/images/headshot3.png"/>
 						<TeamMemberImage member="Melanie Tambong" image="/images/headshot2.png"/>
 						<TeamMemberImage member="Vivianne Yee" image="/images/headshot1.png"/>
@@ -45,7 +45,7 @@ function Project() {
 
 		  				<p className="team-members">Supervisor</p>
 
-		  				<Supervisor name="Mads Kaern, BSc, MSc, PhD."
+		  				<Supervisor name="Mads Kaern, BSc, MSc, PhD"
 		  					work="Department of Cellular and Molecular Medecine, University of Ottawa"
 		  					email="mkaern@uottawa.ca"/>
 
@@ -63,14 +63,14 @@ function Project() {
 		  					program="Software Engineering"
 		  					hs="Cégep de l'Outaouais"
 		  					city="Gatineau"
-		  					gradyear="***"/>
+		  					gradyear="2018"/>
 
 		  				<TeamMember member="Melanie Tambong" 
 		  					year="Second" 
 		  					program="Commerce (Management)"
-		  					hs="High School"
-		  					city="***"
-		  					gradyear="***"/>
+		  					hs="Heritage College"
+		  					city="Gatineau"
+		  					gradyear="2018"/>
 
 		  				<TeamMember member="Vivianne Yee" 
 		  					year="First" 

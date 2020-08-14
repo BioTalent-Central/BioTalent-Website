@@ -42,11 +42,50 @@ function ProjectEight() {
 
 		  				<p className="team-members">Supervisor</p>
 
-		  				<Supervisor name="Mads Kaern"
-		  					work="Work"
-		  					email="email@gmail.com"/>
+		  				<Supervisor name="Mads Kaern, BSc, MSc, PhD"
+		  					work="Department of Cellular and Molecular Medecine, University of Ottawa"
+		  					email="mkaern@uottawa.ca"/>
 
 		  				<p className="team-members">Research Assistants</p>
+
+		  				<h3>RNA-based Computing: CAD Software</h3>
+
+		  				<ProjDescription 
+	      					description="To develop a virtual CAD platform to design and simulate models of RNA-based gene regulatory networks."
+	      					motivation="RNA-based biocomputing is a unique and growing field with bridge between circuit design and regulatory networks continuously growing. While understanding the future possibilities of this field we recognize the importance of having a CAD software that was built from the ground up by University of Ottawa students, for uOttawa students. This allows for more possibilities in future development, and complete access and reliability."
+	      				/> 
+
+		  				<TeamMember member="Faven Ghilazghi" 
+		  					year="Fourth" 
+		  					program="Mechanical Engineering and Computing Technology"
+		  					hs="West Humber COllegiate Institute"
+		  					city="Etobicoke"
+		  					gradyear="****"/>
+
+		  				<TeamMember member="Siana Kong" 
+		  					year="First" 
+		  					program="Computer Science"
+		  					hs="Corpus Christi Catholic Secondary School"
+		  					city="Burlington"
+		  					gradyear="2019"/>
+
+		  				<TeamMember member="S&eacute;bastien Girard" 
+		  					year="First" 
+		  					program="Software Engineering"
+		  					hs="Polyvalente de l'&Eacute;rabli&egrave;re"
+		  					city="Gatineau"
+		  					gradyear="2019"/>
+
+		  				<TeamMember member="Antinderpaul Kanwar" 
+		  					year="Fourth" 
+		  					program="Software Engineering and Engineering Management"
+		  					hs="Turner Fenton Secondary School"
+		  					city="Brampton"
+		  					gradyear="2016"/>
+
+
+
+		  				<h3>DNA Hardware</h3>
 
 		  				<TeamMember member="Roy Hwang" 
 		  					year="First" 
@@ -55,35 +94,7 @@ function ProjectEight() {
 		  					city="Ottawa, ON"
 		  					gradyear="2020"/>
 
-		  				<TeamMember member="Faven Ghilazghi" 
-		  					year="First" 
-		  					program="Biology"
-		  					hs="High School"
-		  					city="Ottawa, ON"
-		  					gradyear="2020"/>
-
 		  				<TeamMember member="Jasmine Sodhi" 
-		  					year="First" 
-		  					program="Biology"
-		  					hs="High School"
-		  					city="Ottawa, ON"
-		  					gradyear="2020"/>
-
-		  				<TeamMember member="Siana Kong" 
-		  					year="First" 
-		  					program="Biology"
-		  					hs="High School"
-		  					city="Ottawa, ON"
-		  					gradyear="2020"/>
-
-		  				<TeamMember member="S&eacute;bastien Girard" 
-		  					year="First" 
-		  					program="Biology"
-		  					hs="High School"
-		  					city="Ottawa, ON"
-		  					gradyear="2020"/>
-
-		  				<TeamMember member="Antinderpaul Kanwar" 
 		  					year="First" 
 		  					program="Biology"
 		  					hs="High School"

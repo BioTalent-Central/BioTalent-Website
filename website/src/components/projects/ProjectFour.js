@@ -16,7 +16,7 @@ function ProjectFour() {
 		<div className="Projects">
 
 	      <ProjTitle projTitle="The Potential of the Natural Resources of Quebec's Lower North Shore"/>
-	      <ProjImage projImage="/images/bio.jpg"/>
+	      <ProjImage projImage="/images/project-four/cloud_berries.jpg"/>
 
 	      <ProjDescription 
 	      	description="We have identified resources on the Lower North Shore that contain biomaterials such as collagen and antioxidants that are used in markets such as neutraceuticals, pharmaceuticals, cosmetics and more. We focused on two main resources: aquatic waste and berries, which we split into two projects accordingly. 
@@ -32,10 +32,10 @@ There is an emphasis on sustainability both ecologically and economically for bo
 	      <div className="about-the-team">
 	      	<h2>The Team</h2>
 	      		<div className="images">
-	      			<TeamMemberImage member="Nilesh Arulchelvam" image="/images/Arulchelvam.jpeg"/>
-					<TeamMemberImage member="Andrew Parks" image="/images/Parks.jpg"/>
-					<TeamMemberImage member="Claire Murley" image="/images/Murley.jpg"/>
-					<TeamMemberImage member="Jasmine Silver" image="/images/Silver.jpeg"/>
+	      			<TeamMemberImage member="Nilesh Arulchelvam" image="/images/project-four/Arulchelvam.jpeg"/>
+					<TeamMemberImage member="Andrew Parks" image="/images/project-four/Parks.jpg"/>
+					<TeamMemberImage member="Claire Murley" image="/images/project-four/Murley.jpg"/>
+					<TeamMemberImage member="Jasmine Silver" image="/images/project-four/Silver.jpeg"/>
 		  		</div>
 
 		  		<div className="team-info">
