@@ -2,9 +2,13 @@ import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom"
 
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "shards-ui/dist/css/shards.min.css"
 
 
-import NavBar from "./components/NavBar"
+import HomeNav from "./components/Home/navbar2"
+
+//import NavBar from "./components/NavBar"
 import Project from "./components/Project"
 import ProjectOne from "./components/projects/ProjectOne"
 import ProjectTwo from "./components/projects/ProjectTwo"
@@ -20,15 +24,15 @@ import ProjectTen from "./components/projects/ProjectTen"
 import aboutus from './components/About/aboutus';
 import opportunities from './components/Opportunities/opportunities';
 import home from './components/Home/home';
-import BioTalent from './components/BioTalent page/BioTalentPage'
+import BioTalent from './components/BioTalent\ page/BioTalentPage'
 
 
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>     
-        <NavBar />
+      <BrowserRouter>
+        <HomeNav />
         <Switch>
             <Redirect from="/" exact to="/home"/>
             <Route path="/home" component={home}/>
