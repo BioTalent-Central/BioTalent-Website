@@ -1,15 +1,19 @@
 import React from 'react';
 import "./aboutus.css";
-
+import BioTalentimage from './Picture_BioTalent.png'
+import govImage from './Canwordmark_colour.png'
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Container from 'react-bootstrap/Container'
 
 function aboutus(){
     return(
         <section className="aboutus-section">
-            <div className="aboutus-container">
+            <Jumbotron fluid>
                 <div className="aboutus-text-container">
-                  <h1 className="aboutusHeadersMAIN">About Us</h1>
+                    <Container>
+                    <h1 className="aboutusHeadersMAIN">About Us</h1>
                     <p className="aboutus-summary">
-                        The uOttawa BioTalent program involves teams of students from many different faculties, leading their own projects to suggest solutions to a real-world biotechnology problem. In the first year of this program, 11 students were recruited to develop unique projects and specific project outcomes in order to create a team of students that can fill gaps in their knowledge and competencies, and contribute to the completion of their project.
+                            The uOttawa BioTalent program involves teams of students from many different faculties, leading their own projects to suggest solutions to a real-world biotechnology problem. In the first year of this program, 11 students were recruited to develop unique projects and specific project outcomes in order to create a team of students that can fill gaps in their knowledge and competencies, and contribute to the completion of their project.
                     </p>
                     <h1 className="aboutusHeaders">Our vision</h1>
                     <p className="aboutus-vision">
@@ -29,10 +33,14 @@ function aboutus(){
                     </p>
                     <h1 className="aboutusHeaders">Our partners</h1>
                     <a className="biotalent-link" href="https://www.biotalent.ca/" target="_blank">
-                        <img src="BTLogo.png" className="BTLogoIcon"/>
+                        <img src={BioTalentimage} className="BTLogoIcon"/>
                     </a>
+                    <a className="government-link" href="https://horizons.gc.ca/en/home/" target="_blank">
+                        <img src={govImage} className="PolicyHorizonIcon" />
+                    </a>    
+                     </Container>
                 </div>
-            </div>
+            </Jumbotron>
         </section>
     )
 }
