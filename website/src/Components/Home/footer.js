@@ -4,7 +4,7 @@ import Logo from './images/BiotalentLogo.png'
 function Footer(){
   return(
     <div className="footer">
-      <h2>Contact Us</h2>
+      <h3>Contact Us</h3>
       <p>(123)-456-7890</p>
       <p>122 Daly Ave. <br/> Ottawa, ON</p>
       <p>biotalentcentral@gmail.com</p>
