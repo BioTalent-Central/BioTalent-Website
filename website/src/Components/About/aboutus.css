@@ -1,25 +1,55 @@
-.aboutusHeaders{
-    font-family: Copperplate;
-    font-weight: bold;
-    color : #1d1e3e;
-    margin-top: 50px;
-    font-size: 40px;
+.aboutus {
+  text-align: center;
+  background-color: white;
 
 }
 
-.aboutusHeadersMAIN{
-    font-size: 60px;
-}
-
-.aboutus-text-container{
-    font-size: 20px;
-    line-height: 35px;
-
-}
-
+/* POLICY HORIZON LOGO */
 .PolicyHorizonIcon{
     width: 350px;
     height: 100px;
 }
+
+/* HEADER ABOUT US*/
+.headerAboutUs{
+  text-align: center;
+  background-image: url('images/aboutusBanner.jpeg');
+  background-size: cover;
+}
+
+.aboutus-header{
+  padding-top: 35px ;
+}
+
+.aboutus-summary {
+  margin-top : 25px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 300px;
+  padding-left: 300px;
+}
+
+/*CONTENT ABOUT US*/
+
+.Row{
+  padding: 20px;
+  display: inline-block;
+}
+
+.leftContent{
+  float: left;
+  width: 50%;
+}
+
+.rightContent{
+  float: right;
+  width: 50%;
+}
+
+.TitleAboutUs{
+  font-size: 40px;
+}
+
 
 

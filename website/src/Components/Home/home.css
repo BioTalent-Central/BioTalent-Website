@@ -1,19 +1,32 @@
 .Home {
   text-align: center;
-}
+  background-color: white;
 
-.header{
-  background-color: #1d1e3e;
-  color: #979797;
 }
 
 .overview{
   text-align: center;
 }
 
-.projects{
-  margin: 200px;
+.projects-container{
+  background-color: white;
 }
+
+.row{
+  padding: 20px;
+  display: inline-block;
+}
+
+.projectL{
+  float: left;
+  width: 50%;
+}
+
+.projectR{
+  float: right;
+  width: 50%;
+}
+
 
 .navbar a{
   font-size: 16px;
@@ -21,11 +34,13 @@
   padding: 14px 16px;
   color: #FFFDFB;
   text-decoration: none;
+  background-color: #1d1e3e;
+  font-family: Copperplate;
 }
 
 .navbar{
-  float: right;
   vertical-align: top;
+  background-color: #1d1e3e;
 }
 .logo{
   position:left;
@@ -33,14 +48,14 @@
   vertical-align: top;
   padding: 10px;
 }
-.logo h1{
+/* .logo h1{
   display: inline;
   vertical-align: top;
   padding: 10px;
   margin: 10px;
   text-align: centre;
   font-size: 50px;
-}
+} */
 .button{
   padding: 16px;
   font-size: 16px;
@@ -54,24 +69,6 @@
   position: relative;
   display: inline-block;
 }
-
-.dropdown-content{
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 1;
-}
-
-.dropdown-content a{
-  padding:12px 16px;
-  display: block;
-}
-
-.dropdown-content a{background-color: #1d1e3e;}
-
-.dropdown-content a:hover{background-color: #353773;}
-
-.dropdown:hover .dropdown-content {display: block}
 
 .subheading{
   color: #641c30;
@@ -90,10 +87,18 @@
   bottom: 0;
   width: 100%;
   background-color: #1d1e3e;
-  color: #FFFDFB;
   vertical-align: middle;
   text-align: left;
 }
+
+.footer p{
+  color: #FFFDFB;
+}
+
+.footer h3{
+  color: #FFFDFB;
+}
+
 .footer img{
   display: block;
   margin-left: auto;
@@ -107,6 +112,12 @@
   text-align: center;
   padding:20px;
 }
+
+.projects Button{
+  background-color: #1d1e3e;
+  border: none;
+}
+
 
 /* .text {
 color: #f2f2f2;

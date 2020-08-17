@@ -9,7 +9,6 @@ function home() {
   return (
     <div className="Home">
 
-      <HomeSlideShow/>
       <Overview/>
       <Content/>
 
