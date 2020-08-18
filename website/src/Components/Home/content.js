@@ -21,7 +21,7 @@ export default class Content extends React.Component{
             <Col className="projectL">
               <Card>
                 <CardHeader>Gems of the Lower North Shore</CardHeader>
-                <CardImg src="https://place-hold.it/300x200" />
+                <CardImg className="proj-image" src="images/project-four/cloud_berries.jpg" />
                 <CardBody>
                   <p>Research of the potential resources on the lower north shore and their uses,
                    benefits, and impact on the environment.</p>
@@ -33,7 +33,7 @@ export default class Content extends React.Component{
             <Col className = "projectR">
               <Card>
                 <CardHeader>BioMakerspace and Biotechnology Resource Facility</CardHeader>
-                <CardImg src="https://place-hold.it/300x200" />
+                <CardImg className="proj-image" src="images/project-six/BMS.png" />
                 <CardBody>
                   <p>Creating a space for students to work with biotechnology
                   as well as manufacture and sell laboratory equipment and reagents.</p>
@@ -47,7 +47,7 @@ export default class Content extends React.Component{
             <Col className = "projectL">
               <Card>
                 <CardHeader>RNA based biocomputing</CardHeader>
-                <CardImg src="https://place-hold.it/300x200" />
+                <CardImg className="proj-image" src="images/project-eight/biocomp4.png" />
                 <CardBody>
                   <p>Engineering biological systems and cells to behave like computers
                    by having outputs based on programmed inputs</p>
@@ -59,7 +59,7 @@ export default class Content extends React.Component{
             <Col className = "projectR">
               <Card>
                 <CardHeader>BioEnvo</CardHeader>
-                <CardImg src="https://place-hold.it/300x200" />
+                <CardImg className="proj-image" src="images/project-ten/biomol.png" />
                 <CardBody>
                   <p>Research on ways to remove microplastics from the ottawa river.</p>
                   <Button>Project page &rarr;</Button>
@@ -72,7 +72,7 @@ export default class Content extends React.Component{
             <Col className = "projectL">
               <Card>
                 <CardHeader>Policy Horizons Biodigital Convergence</CardHeader>
-                <CardImg src="https://place-hold.it/300x200" />
+                <CardImg className="proj-image" src="/images/project-five/biodigital-front-page-2.jpg" />
                 <CardBody>
                   <p>Creation of short reports, development of cascade diagrams, and
                   production of foresight study in biotechnology innovations</p>
@@ -84,7 +84,7 @@ export default class Content extends React.Component{
             <Col className = "projectR">
               <Card>
                 <CardHeader>Experimental Learning Brewery and Distillery</CardHeader>
-                <CardImg src="https://place-hold.it/300x200" />
+                <CardImg className="proj-image" src="images/project-three/Brewery.jpg" />
                 <CardBody>
                   <p>Developing a microbrewery and distillery on campus as an experimental learning resource</p>
                   <Button>Project page &rarr;</Button>
@@ -97,7 +97,7 @@ export default class Content extends React.Component{
             <Col className = "projectL">
               <Card>
                 <CardHeader>COVID Med</CardHeader>
-                <CardImg src="https://place-hold.it/300x200" />
+                <CardImg className="proj-image" src="images/project-two/CBD.jpg" />
                 <CardBody>
                   <p>Research into how CBD can help with the inflammatory symptoms of COVID-19 patients</p>
                   <Button>Project page &rarr;</Button>
@@ -108,7 +108,7 @@ export default class Content extends React.Component{
             <Col className = "projectR">
               <Card>
                 <CardHeader>COVID ENG</CardHeader>
-                <CardImg src="https://place-hold.it/300x200" />
+                <CardImg className="proj-image" src="images/project-one/CovidEng.jpg" />
                 <CardBody>
                   <p>Designing point-of-care test kits using new technologies to speed up testing for COVID-19</p>
                   <Button>Project page &rarr;</Button>
@@ -121,7 +121,7 @@ export default class Content extends React.Component{
             <Col className = "projectL">
               <Card>
                 <CardHeader>3D Bioprinting</CardHeader>
-                <CardImg src="https://place-hold.it/300x200" />
+                <CardImg className="proj-image" src="images/project-seven/jasmeet-with-syringe-pump.jpg" />
                 <CardBody>
                   <p>Create a 3D bioprinter from an old bioprinter and create a business plan/pitch for the final design</p>
                   <Button>Project page &rarr;</Button>

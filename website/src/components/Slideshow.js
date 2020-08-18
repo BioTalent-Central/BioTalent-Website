@@ -4,16 +4,15 @@ import "react-slideshow-image/dist/styles.css"
 
 
 const slideImages = [
-  '/images/bio.jpg',
-  '/images/CBD.jpg',
-  '/images/bio3.jpg',
-  '/images/bio3.jpg',
-  '/images/bio3.jpg',
-  '/images/bio3.jpg',
-  '/images/bio3.jpg',
-  '/images/bio3.jpg',
-  '/images/bio3.jpg',
-  '/images/bio3.jpg'
+  '/images/project-one/CovidEng.jpg',
+  '/images/project-two/CBD.jpg',
+  '/images/project-three/Brewery.jpg',
+  '/images/project-four/cloud_berries.jpg',
+  '/images/project-five/biodigital-front-page-2.jpg',
+  '/images/project-six/BMS.png',
+  '/images/project-seven/jasmeet-with-syringe-pump.jpg',
+  '/images/project-ten/bioenvo1.jpg',
+  '/images/project-ten/biomol.png'
 ]
 
 const properties = {
@@ -26,56 +25,51 @@ const properties = {
 
 const Slideshow = () => {
     return (
-      <div>
+      <div className="slideshow">
         <Slide {...properties}>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-              <span>Project 1</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-              <span>Inflammation and CBD</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-              <span>Project 3</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
-              <span>Project 4</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[4]})`}}>
-              <span>Project 5</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[5]})`}}>
-              <span>Project 6</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[6]})`}}>
-              <span>Project 7</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[7]})`}}>
-              <span>Project 8</span>
+              
             </div>
           </div>
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[8]})`}}>
-              <span>Project 9</span>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[9]})`}}>
-              <span>Project 10</span>
+              
             </div>
           </div>
         </Slide>

@@ -2,14 +2,14 @@ import React from "react"
 
 function Supervisor(props) {
 	return(
-		<div>
+		<div className="supervisor">
 
-			<p className="member">{props.name}</p>
-			<p>{props.work}</p>
-			<p>{props.work2}</p>
-			<p>{props.email}</p>
-			<br/>
-			
+			{props.name}<br/>
+			<div className="supervisor-info">
+			{props.work}<br/>
+			{props.email}
+			</div>
+
 		</div>
 	)
 
