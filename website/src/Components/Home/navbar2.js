@@ -54,49 +54,55 @@ export default class HomeNav extends React.Component {
   render() {
     return (
       <div className="header">
-        <Navbar type="dark" expand="md">
+        <Navbar expand="md">
           <NavbarBrand href="/home"><img src={Logo}/></NavbarBrand>
           <NavbarToggler onHover={this.toggleNavbar} />
 
           <Collapse open={this.state.collapseOpen} navbar>
             <Nav navbar>
               <NavItem>
-                <NavLink active href="/home">
+                <NavLink active href="/home" className="nav_link">
                   Home
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink active href="/about">
+                <NavLink active href="/about" className="nav_link">
                   About Us
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink active href="/opportunities">
+                <NavLink active href="/opportunities" className="nav_link">
                   Opportunities
                 </NavLink>
               </NavItem>
-              <Dropdown
-                open={this.state.dropdownOpen}
-                toggle={this.toggleDropdown}
-              >
-                <DropdownToggle split>
-                  <NavLink active href="/project">Projects</NavLink>
-                </DropdownToggle>
-                <DropdownMenu>
-                  <DropdownItem><NavLink active href="/project1">Project 1</NavLink></DropdownItem>
-                  <DropdownItem><NavLink actice href="/project2">Project 2</NavLink></DropdownItem>
-                  <DropdownItem><NavLink active href="/project3">Project 3</NavLink></DropdownItem>
-                  <DropdownItem><NavLink active href="/project4">Project 4</NavLink></DropdownItem>
-                  <DropdownItem><NavLink active href="/project5">Project 5</NavLink></DropdownItem>
-                  <DropdownItem><NavLink active href="/project6">Project 6</NavLink></DropdownItem>
-                  <DropdownItem><NavLink active href="/project7">Project 7</NavLink></DropdownItem>
-                  <DropdownItem><NavLink active href="/project8">Project 8</NavLink></DropdownItem>
-                  <DropdownItem><NavLink active href="/project9">Project 9</NavLink></DropdownItem>
-                  <DropdownItem><NavLink active href="/project10">Project 10</NavLink></DropdownItem>
-                </DropdownMenu>
-              </Dropdown>
               <NavItem>
-                <NavLink active href="/biotalent">
+                <Dropdown
+                  open={this.state.dropdownOpen}
+                  toggle={this.toggleDropdown}
+                >
+
+                  <NavLink active href="/project" className="nav_link">
+                    Projects
+                  </NavLink>
+                  <DropdownToggle split className="arrow">
+                  </DropdownToggle>
+
+                  <DropdownMenu className="drop">
+                    <NavLink active href="/project1"><DropdownItem className="dItem">Gems of the LNS</DropdownItem></NavLink>
+                    <NavLink actice href="/project2"><DropdownItem className="dItem">BioMakerspace</DropdownItem></NavLink>
+                    <NavLink active href="/project3"><DropdownItem className="dItem">Biocomputing</DropdownItem></NavLink>
+                    <NavLink active href="/project4"><DropdownItem className="dItem">BioEnvo</DropdownItem></NavLink>
+                    <NavLink active href="/project5"><DropdownItem className="dItem">Policy Horizons</DropdownItem></NavLink>
+                    <NavLink active href="/project6"><DropdownItem className="dItem">Brewery and Distillery</DropdownItem></NavLink>
+                    <NavLink active href="/project7"><DropdownItem className="dItem">Covid Med</DropdownItem></NavLink>
+                    <NavLink active href="/project8"><DropdownItem className="dItem">Covid Eng</DropdownItem></NavLink>
+                    <NavLink active href="/project9"><DropdownItem className="dItem">3D Bioprinting</DropdownItem></NavLink>
+                    <NavLink active href="/project10"><DropdownItem className="dItem">Microplastics</DropdownItem></NavLink>
+                  </DropdownMenu>
+                </Dropdown>
+              </NavItem>
+              <NavItem>
+                <NavLink active href="/biotalent" className="nav_link">
                   BioTalent
                 </NavLink>
               </NavItem>
@@ -105,6 +111,6 @@ export default class HomeNav extends React.Component {
         </Navbar>
       </div>
 
-    )
+    );
   }
 }
