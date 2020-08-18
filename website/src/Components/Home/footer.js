@@ -10,18 +10,18 @@ export default class Footer extends React.Component{
         <div className='container'>
           <div className="row">
             <div className="four columns">
-              <h4>Contact Us</h4>
-              <p>(123)-456-7890</p>
-              <p>122 Daly Ave. <br/> Ottawa, ON</p>
+              <h6>Contact Us</h6>
+              <p>(613) 562-5741</p>
+              <p>75 Laurier Ave. East,<br/>Ottawa ON K1N 6N5 Canada</p>
               <p>biotalentcentral@gmail.com</p>
             </div>
             <div className="four columns">
-              <h4>Learn More</h4>
+              <h6>Learn More</h6>
               <NavLink active href="/about">About Us</NavLink>
               <NavLink active href="/biotalent">BioTalent Canada</NavLink>
             </div>
             <div className="four columns">
-              <h4>Get Involved</h4>
+              <h6>Get Involved</h6>
               <NavLink active href="/opportunities">Opportunities</NavLink>
             </div>
           </div>
