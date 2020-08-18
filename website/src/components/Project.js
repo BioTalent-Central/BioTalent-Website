@@ -18,8 +18,8 @@ function Project() {
 			<Slideshow />
 
 			<ProjDescription description="A total of 50 students studying at the University of Ottawa in a variety of different 
-			fields were recruited to contribute to 11 different student-led projects; this includes a central support team 
-			and 10 teams focused on a unique research project. Students will work for the duration of this co-op work term, 
+			fields were recruited to contribute to 10 different student-led projects; this includes a central support team 
+			and 9 teams focused on a unique research project. Students will work for the duration of this co-op work term, 
 			May through August, and new students will join the program in future work terms. New students may start their own 
 			research projects, or could continue the research started during the current work term by the students involved 
 			during this term."/> 

@@ -9,7 +9,6 @@ function ProjImage(props) {
 	    	<CardBody>
 				<div className="description">
 					<h2>Overview</h2>
-					<br/>
 		        	<p>{props.description}</p>
 		        	<br/>
 		        	<p>{props.motivation}</p>

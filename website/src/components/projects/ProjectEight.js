@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card, CardBody, CardImg } from "shards-react"
 
 
 import ProjTitle from "./proj-components/ProjTitle"
@@ -80,14 +81,21 @@ function ProjectEight() {
 	      <div className="about-the-team">
 	      
 	      	<div className="member">
-	      		<TeamMembers image="images/project-eight/Hwang.png" 
-	      					member="Roy Hwang" 
-		  					year="Masters" 
-		  					program="Cellular and Molecular Medicine with a specialization in Bioinformatics"
-		  					hs="Abbey Park High School"
-		  					city="Oakville"
-		  					gradyear="2015"
-		  					uni="the University of Ottawa"/>
+	      		<Card className="member-card">
+					<div className="img-container">
+						<CardImg top className="headshots" src="images/project-eight/Hwang.png" />
+							<div className="middle">
+								<div className="img-text">
+									Completing a Master of Science in Cellular and Molecular Medicine specialization in Bioinformatics at the University of Ottawa
+									<br/>
+									Graduated from Abbey Park High School, in Oakville, in 2015
+								</div>
+							</div>
+					</div>
+				<CardBody>
+					<h2>Roy Hwang</h2>
+				</CardBody>
+				</Card>
 	      	</div>
 	      	<div className="member">
 	      		<TeamMembers image="images/project-eight/Masama.png" 

@@ -61,6 +61,9 @@ function ProjectOne() {
 				</CardBody>
 				</Card>
 			</div>
+		</div>
+
+		<div className="about-the-team">
 			<div className="member">
 	      		<TeamMembers image="images/project-one/Ray.png" 
 	      					member="Rohan Ray" 
