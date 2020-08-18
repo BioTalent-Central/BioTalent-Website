@@ -2,6 +2,15 @@
   background-color: white;
 }
 
+.proj-image{
+  width: 100%;
+}
+
+.overview{
+  text-align: center;
+}
+
+
 .projects-container{
   background-color: white;
 }

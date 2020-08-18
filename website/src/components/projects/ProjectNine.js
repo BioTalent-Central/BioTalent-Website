@@ -15,47 +15,7 @@ function ProjectNine() {
 
 		<div className="Projects">
 
-	      <ProjTitle projTitle="Project Nine"/>
-	      <ProjImage projImage="/images/bio.jpg"/>
-
-	      <ProjDescription 
-	      	description="Project description goes here"
-	      	motivation="Project motivation goes here"
-	      />
-
-
-	      <ProjExtResources resources="If applicable, add links to team's websites, partners, etc."/>
-
-	      <div className="about-the-team">
-	      	<h2>The Team</h2>
-	      		<div className="images">
-	      			<TeamMemberImage member="Wendy" image="/images/headshot1.png"/>
-					<TeamMemberImage member="Wesley" image="/images/headshot3.png"/>
-					<TeamMemberImage member="William" image="/images/headshot4.png"/>
-		  		</div>
-
-		  		<div className="team-info">
-		  				<br/>
-
-		  				<p className="team-members">Supervisor</p>
-
-		  				<Supervisor name="Name"
-		  					title="Title"
-		  					work="Work"
-		  					email="email@gmail.com"/>
-
-		  				<p className="team-members">Research Assistants</p>
-
-		  				<TeamMember member="Member 1" 
-		  					year="First" 
-		  					program="Biology"
-		  					hs="High School"
-		  					city="Ottawa, ON"
-		  					gradyear="2020"/>
-
-		  		</div>
-		  		
-		  </div>
+			<p>delete page</p>
      
     	</div>
 

@@ -8,8 +8,10 @@ import './nav.css'
 import './skeleton.css'
 import'./normalize.css'
 
+
 import HomeNav from "./components/Home/navbar2"
-import NavBar from "./components/NavBar"
+
+//import NavBar from "./components/NavBar"
 import Project from "./components/Project"
 import ProjectOne from "./components/projects/ProjectOne"
 import ProjectTwo from "./components/projects/ProjectTwo"
@@ -21,10 +23,12 @@ import ProjectSeven from "./components/projects/ProjectSeven"
 import ProjectEight from "./components/projects/ProjectEight"
 import ProjectNine from "./components/projects/ProjectNine"
 import ProjectTen from "./components/projects/ProjectTen"
+
 import aboutus from './components/About/aboutus';
 import opportunities from './components/Opportunities/opportunities';
 import home from './components/Home/home';
 import BioTalent from './components/BioTalent\ page/BioTalentPage'
+
 
 
 function App() {
@@ -51,6 +55,7 @@ function App() {
             <Route path="/project10" component={ProjectTen}/>
           </Switch>
     </BrowserRouter>
+
     </div>
   )
 }
