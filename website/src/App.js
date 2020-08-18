@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom"
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css"
+import './nav.css'
+import './skeleton.css'
+import'./normalize.css'
 
 
 import HomeNav from "./components/Home/navbar2"

@@ -12,6 +12,7 @@
   text-align: center;
 }
 
+
 .projects-container{
   background-color: white;
 }
@@ -21,37 +22,51 @@
   display: inline-block;
 }
 
-.projectL{
-  float: left;
-  width: 50%;
-}
-
-.projectR{
-  float: right;
-  width: 50%;
-}
-
-
-.navbar a{
-  font-size: 16px;
-  display: block;
-  padding: 14px 16px;
-  color: #FFFDFB;
-  text-decoration: none;
-  background-color: #1d1e3e;
-  font-family: Copperplate;
-}
-
-.navbar{
-  vertical-align: top;
-  background-color: #1d1e3e;
-}
-.logo{
-  position:left;
-  display: inline-block;
-  vertical-align: top;
+.project-title{
+  background-color: white;
   padding: 10px;
+  text-shadow: 2px 2px 5px #1d1e3e;
+  margin-bottom: 10px;
+  border-bottom-color: #1d1e3e;
+  border-bottom-style: solid;
+  border-top-color: #1d1e3e;
+  border-top-style: solid;
 }
+
+.project-title h1{
+  color: #1d1e3e;
+}
+
+.overview{
+  text-align: center;
+  background-image: url("images/backdrop4.jpeg");
+  background-size: cover;
+}
+
+.projCard{
+  min-height: 550px;
+}
+
+.projCard Button{
+  position: static;
+}
+
+.overview p{
+  color: #1d1e3e;
+  text-shadow: 2px 2px 5px #1d1e3e;
+}
+
+.overview h1{
+  color:#1d1e3e;
+  text-shadow: 2px 2px 5px #1d1e3e;
+}
+
+
+
+
+
+
+
 /* .logo h1{
   display: inline;
   vertical-align: top;
@@ -69,10 +84,6 @@
   border: none;
 }
 
-.dropdown{
-  position: relative;
-  display: inline-block;
-}
 
 .subheading{
   color: #641c30;
@@ -91,44 +102,31 @@
   bottom: 0;
   width: 100%;
   background-color: #1d1e3e;
+  color: #FFFDFB;
   vertical-align: middle;
-  text-align: left;
+  text-align: center;
+  display: inline-block;
 }
 
 .footer p{
   color: #FFFDFB;
+  width: 50%;
 }
 
-.footer h3{
+.footer h4{
   color: #FFFDFB;
 }
 
 .footer img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #1d1e3e;
 }
 .image-container img{
   width: 50%;
   position: relative;
-  margin:auto;
   text-align: center;
-  padding:20px;
 }
 
 .projects Button{
   background-color: #1d1e3e;
   border: none;
 }
-
-
-/* .text {
-color: #f2f2f2;
-font-size: 15px;
-padding: 8px 12px;
-position: absolute;
-bottom: 8px;
-width: 100%;
-text-align: center;
-} */
