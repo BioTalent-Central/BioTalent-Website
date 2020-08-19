@@ -88,16 +88,16 @@ export default class HomeNav extends React.Component {
                   </DropdownToggle>
 
                   <DropdownMenu className="drop">
-                    <NavLink active href="/project1"><DropdownItem className="dItem">Gems of the LNS</DropdownItem></NavLink>
-                    <NavLink actice href="/project2"><DropdownItem className="dItem">BioMakerspace</DropdownItem></NavLink>
-                    <NavLink active href="/project3"><DropdownItem className="dItem">Biocomputing</DropdownItem></NavLink>
-                    <NavLink active href="/project4"><DropdownItem className="dItem">BioEnvo</DropdownItem></NavLink>
+                    <NavLink active href="/project1"><DropdownItem className="dItem">Covid ENG</DropdownItem></NavLink>
+                    <NavLink actice href="/project2"><DropdownItem className="dItem">Covid Med</DropdownItem></NavLink>
+                    <NavLink active href="/project3"><DropdownItem className="dItem">Microbrewery & Distillery</DropdownItem></NavLink>
+                    <NavLink active href="/project4"><DropdownItem className="dItem">Gems of the LNS</DropdownItem></NavLink>
                     <NavLink active href="/project5"><DropdownItem className="dItem">Policy Horizons</DropdownItem></NavLink>
-                    <NavLink active href="/project6"><DropdownItem className="dItem">Brewery and Distillery</DropdownItem></NavLink>
-                    <NavLink active href="/project7"><DropdownItem className="dItem">Covid Med</DropdownItem></NavLink>
-                    <NavLink active href="/project8"><DropdownItem className="dItem">Covid Eng</DropdownItem></NavLink>
-                    <NavLink active href="/project9"><DropdownItem className="dItem">3D Bioprinting</DropdownItem></NavLink>
-                    <NavLink active href="/project10"><DropdownItem className="dItem">Microplastics</DropdownItem></NavLink>
+                    <NavLink active href="/project6"><DropdownItem className="dItem">BioMakerSpace</DropdownItem></NavLink>
+                    <NavLink active href="/project7"><DropdownItem className="dItem">3D Bioprinting</DropdownItem></NavLink>
+                    <NavLink active href="/project8"><DropdownItem className="dItem">Biocomputing</DropdownItem></NavLink>
+                    
+                    <NavLink active href="/project10"><DropdownItem className="dItem">BioEnvo</DropdownItem></NavLink>
                   </DropdownMenu>
                 </Dropdown>
               </NavItem>

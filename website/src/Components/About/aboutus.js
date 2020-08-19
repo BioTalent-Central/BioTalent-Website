@@ -12,19 +12,6 @@ function aboutus(){
         <section className="aboutus-section">
             <HeaderAboutUs />
             <ContentAboutUs />
-            <Jumbotron fluid>
-                <div className="aboutus-text-container">
-                    <Container>
-                    <h1 className="aboutusHeaders">Our Partners</h1>
-                    <a className="biotalent-link" href="https://www.biotalent.ca/" target="_blank">
-                        <img src={BioTalentimage} className="BTLogoIcon"/>
-                    </a>
-                    <a className="government-link" href="https://horizons.gc.ca/en/home/" target="_blank">
-                        <img src={govImage} className="PolicyHorizonIcon" />
-                    </a>    
-                     </Container>
-                </div>
-            </Jumbotron>
         </section>
     )
 }

@@ -1,8 +1,22 @@
 import React from "react"
+import { Card, CardBody, CardImg } from "shards-react"
 
 function ProjImage(props) {
   return(
-    <img className="proj-image" src={props.projImage}/>
+  	<div className="proj-images">
+  		<Card>
+	    	<CardImg top src={props.projImage}/>
+	    	<CardBody>
+				<div className="description">
+					<h2>Overview</h2>
+		        	<p>{props.description}</p>
+		        	<br/>
+		        	<p>{props.motivation}</p>
+		        	
+        		</div>
+			</CardBody>
+		</Card>
+    </div>
   )
 }
 
