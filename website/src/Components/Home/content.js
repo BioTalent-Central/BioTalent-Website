@@ -20,27 +20,25 @@ export default class Content extends React.Component{
         </div>
         <Container className ="projects">
           <Row className="row">
-            <Col className="four columns">
+            <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>Gems of the Lower North Shore</CardHeader>
-                <CardImg className="proj-image" src="images/project-four/cloud_berries.jpg" />
+                <CardHeader>3D Bioprinting</CardHeader>
+                <CardImg className="proj-image" src="images/project-seven/jasmeet-with-syringe-pump.jpg" />
                 <CardBody>
-                  <p>Research of the potential resources on the lower north shore and their uses,
-                   benefits, and impact on the environment.</p>
-                 <NavLink active href='/project4'>
-                   <Button>Project page &rarr;</Button>
-                  </NavLink>
+                  <p>Design of 3D Bioprinters for BioArt and Tissue Engineering Applications</p>
+                    <NavLink active href='/project7'>
+                      <Button>Project page &rarr;</Button>
+                    </NavLink>
                 </CardBody>
                 <CardFooter></CardFooter>
               </Card>
             </Col>
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>BioMakerspace and Biotechnology Resource Facility</CardHeader>
+                <CardHeader>BioMakerSpace</CardHeader>
                 <CardImg className="proj-image" src="images/project-six/BMS.png" />
                 <CardBody>
-                  <p>Creating a space for students to work with biotechnology
-                  as well as manufacture and sell laboratory equipment and reagents.</p>
+                  <p>Design and Implementation of Virtual and IRL uOttawa BioMakerSpaces</p>
                 <NavLink active href='/project6'>
                   <Button>Project page &rarr;</Button>
                 </NavLink>
@@ -50,27 +48,27 @@ export default class Content extends React.Component{
             </Col>
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>RNA based biocomputing</CardHeader>
-                <CardImg className="proj-image" src="images/project-eight/biocomp4.png" />
+                <CardHeader>Microbrewery & Distillery</CardHeader>
+                <CardImg className="proj-image" src="images/project-three/Brewery.jpg" />
                 <CardBody>
-                  <p>Engineering biological systems and cells to behave like computers
-                   by having outputs based on programmed inputs</p>
-                 <NavLink active href='/project8'>
-                     <Button>Project page &rarr;</Button>
-                   </NavLink>
+                  <p>Cost-efficient Technologies for Microbrewery and Craft Distilleries</p>
+                    <NavLink active href='/project3'>
+                      <Button>Project page &rarr;</Button>
+                    </NavLink>
                 </CardBody>
                 <CardFooter></CardFooter>
               </Card>
             </Col>
           </Row>
+
           <Row className="row">
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>BioEnvo</CardHeader>
-                <CardImg className="proj-image" src="images/project-ten/biomol.png" />
+                <CardHeader>COVID MED</CardHeader>
+                <CardImg className="proj-image" src="images/project-two/CBD.jpg" />
                 <CardBody>
-                  <p>Research on ways to remove microplastics from the ottawa river.</p>
-                    <NavLink active href='/project9'>
+                  <p>Assessment of CBD for the Treatment of Inflammatory Responses in COVID-19 Patients</p>
+                    <NavLink active href='/project2'>
                       <Button>Project page &rarr;</Button>
                     </NavLink>
                 </CardBody>
@@ -79,11 +77,10 @@ export default class Content extends React.Component{
             </Col>
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>Policy Horizons Biodigital Convergence</CardHeader>
+                <CardHeader>BioDigital Policy Horizons</CardHeader>
                 <CardImg className="proj-image" src="/images/project-five/biodigital-front-page-2.jpg" />
                 <CardBody>
-                  <p>Creation of short reports, development of cascade diagrams, and
-                  production of foresight study in biotechnology innovations</p>
+                  <p>Foresight Analysis and Policy Implications of Biological and Digital Technology Convergence</p>
                 <NavLink active href='/project5'>
                     <Button>Project page &rarr;</Button>
                   </NavLink>
@@ -93,26 +90,27 @@ export default class Content extends React.Component{
             </Col>
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>Experimental Learning Brewery and Distillery</CardHeader>
-                <CardImg className="proj-image" src="images/project-three/Brewery.jpg" />
+                <CardHeader>BioComputing</CardHeader>
+                <CardImg className="proj-image" src="images/project-eight/biocomp4.png" />
                 <CardBody>
-                  <p>Developing a microbrewery and distillery on campus as an experimental learning resource</p>
-                    <NavLink active href='/project3'>
-                      <Button>Project page &rarr;</Button>
-                    </NavLink>
+                  <p>Technologies for RNA-based Biocomputing for "Smart" Biological Devices</p>
+                 <NavLink active href='/project8'>
+                     <Button>Project page &rarr;</Button>
+                   </NavLink>
                 </CardBody>
                 <CardFooter></CardFooter>
               </Card>
             </Col>
           </Row>
+
           <Row className="row">
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>COVID Med</CardHeader>
-                <CardImg className="proj-image" src="images/project-two/CBD.jpg" />
+                <CardHeader>BioEnvo</CardHeader>
+                <CardImg className="proj-image" src="images/project-ten/biomol.png" />
                 <CardBody>
-                  <p>Research into how CBD can help with the inflammatory symptoms of COVID-19 patients</p>
-                    <NavLink active href='/project2'>
+                  <p>Biology-based Remediation of Microplastic Pollution to Restore and Revive Freshwater Habitats in the Ottawa River</p>
+                    <NavLink active href='/project9'>
                       <Button>Project page &rarr;</Button>
                     </NavLink>
                 </CardBody>
@@ -124,7 +122,7 @@ export default class Content extends React.Component{
                 <CardHeader>COVID ENG</CardHeader>
                 <CardImg className="proj-image" src="images/project-one/CovidEng.jpg" />
                 <CardBody>
-                  <p>Designing point-of-care test kits using new technologies to speed up testing for COVID-19</p>
+                  <p>Emerging Biotechnologies for COVID-19 Point-of-care Testing</p>
                     <NavLink active href='/project1'>
                       <Button>Project page &rarr;</Button>
                     </NavLink>
@@ -132,15 +130,15 @@ export default class Content extends React.Component{
                 <CardFooter></CardFooter>
               </Card>
             </Col>
-            <Col className = "four columns">
+            <Col className="four columns">
               <Card className="projCard">
-                <CardHeader>3D Bioprinting</CardHeader>
-                <CardImg className="proj-image" src="images/project-seven/jasmeet-with-syringe-pump.jpg" />
+                <CardHeader>Gems of the Lower North Shore</CardHeader>
+                <CardImg className="proj-image" src="images/project-four/cloud_berries.jpg" />
                 <CardBody>
-                  <p>Create a 3D bioprinter from an old bioprinter and create a business plan/pitch for the final design</p>
-                    <NavLink active href='/project7'>
-                      <Button>Project page &rarr;</Button>
-                    </NavLink>
+                  <p>Innovative Natural Resource Development of Quebec's Lower North Shore Region</p>
+                 <NavLink active href='/project4'>
+                   <Button>Project page &rarr;</Button>
+                  </NavLink>
                 </CardBody>
                 <CardFooter></CardFooter>
               </Card>

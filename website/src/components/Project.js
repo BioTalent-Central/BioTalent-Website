@@ -31,7 +31,7 @@ function Project() {
 				completing their respective research projects by contributing their various skills in the fields
 				of software engineering and commerce. Apart from providing assistance, these four students are the
 				ones responsible for developing the website you are currently looking at! Finally, they play an important
-				part in working with professor Mads Kaern to extend the lifetime of the uOttawa BioTalent program
+				role in working with professor Mads Kaern to extend the lifetime of the uOttawa BioTalent program
 				beyond the Summer 2020 co-op work term.</p> 
 			</div>
 
