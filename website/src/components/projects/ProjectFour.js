@@ -80,7 +80,7 @@ There is an emphasis on sustainability both ecologically and economically for bo
   					email="sowinski@uottawa.ca"/>
 
   				<Supervisor name="Kristopher Fequet, CEP"
-  					work="Northern Research Center, Coasters Association Inc"
+  					work="Northern Research Center, Coasters Association Inc."
   					email="kristopher.fequet@coastersassociation.com"/>
      
   			</div>

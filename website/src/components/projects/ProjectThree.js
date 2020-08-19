@@ -49,7 +49,7 @@ function ProjectThree() {
 	      		<TeamMembers image="/images/project-three/Granchelli.jpg"
 	      					member="Giselle Granchelli" 
 		  					year="Second" 
-		  					program="Chemical Engineering and Experience Computing Technology"
+		  					program="Chemical Engineering and Computing Technology"
 		  					hs="Collège Catholique Franco-Ouest"
 		  					city="Nepean"
 		  					gradyear="2018"

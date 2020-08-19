@@ -11,6 +11,8 @@ function ProjImage(props) {
 					<h2>Overview</h2>
 		        	<p>{props.description}</p>
 		        	<br/>
+		        	<br/>
+		        	<h3>Project Motivation</h3>
 		        	<p>{props.motivation}</p>
 		        	
         		</div>
