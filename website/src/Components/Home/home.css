@@ -8,6 +8,7 @@
 
 .overview{
   text-align: center;
+  padding: 60px;
 }
 
 
@@ -37,7 +38,7 @@
 }
 
 .projCard{
-  min-height: 580px;
+  min-height: 590px;
   margin-bottom: 20px;
 }
 
