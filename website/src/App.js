@@ -21,7 +21,6 @@ import ProjectFive from "./components/projects/ProjectFive"
 import ProjectSix from "./components/projects/ProjectSix"
 import ProjectSeven from "./components/projects/ProjectSeven"
 import ProjectEight from "./components/projects/ProjectEight"
-import ProjectNine from "./components/projects/ProjectNine"
 import ProjectTen from "./components/projects/ProjectTen"
 
 import aboutus from './components/About/aboutus';
@@ -51,7 +50,6 @@ function App() {
             <Route path="/project6" component={ProjectSix}/>
             <Route path="/project7" component={ProjectSeven}/>
             <Route path="/project8" component={ProjectEight}/>
-            <Route path="/project9" component={ProjectNine}/>
             <Route path="/project10" component={ProjectTen}/>
           </Switch>
     </BrowserRouter>

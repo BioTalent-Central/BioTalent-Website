@@ -3,9 +3,6 @@ import React from 'react';
 
 import ProjTitle from "./proj-components/ProjTitle"
 import ProjImage from "./proj-components/ProjImage"
-import ProjDescription from "./proj-components/ProjDescription"
-import ProjExtResources from "./proj-components/ProjExtResources"
-import TeamMemberImage from "./proj-components/TeamMemberImage"
 import TeamMembers from "./proj-components/TeamMembers"
 import Supervisor from "./proj-components/Supervisor"
 
@@ -72,9 +69,9 @@ function ProjectThree() {
 
   				<p className="team-members">Supervisor</p>
 
-  				<Supervisor name="Andrew Sowinski, PhD"
+  				<Supervisor name="Andrew Sowinski, PhD, P.Eng"
   					work="Department of Chemical and Biological Engineering, University of Ottawa"
-  					email="andrew.sowinski@uottawa.ca"/>
+  					email="sowinski@uottawa.ca"/>
 
   			</div>
 

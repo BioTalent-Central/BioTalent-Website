@@ -110,7 +110,7 @@ export default class Content extends React.Component{
                 <CardImg className="proj-image" src="images/project-ten/biomol.png" />
                 <CardBody>
                   <p>Biology-based Remediation of Microplastic Pollution to Restore and Revive Freshwater Habitats in the Ottawa River</p>
-                    <NavLink active href='/project9'>
+                    <NavLink active href='/project10'>
                       <Button>Project page &rarr;</Button>
                     </NavLink>
                 </CardBody>
