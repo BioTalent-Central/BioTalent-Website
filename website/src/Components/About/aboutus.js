@@ -25,7 +25,7 @@ function aboutus(){
                     </p>
                     <h1 className="aboutusHeaders">Our history</h1>
                     <p className="aboutus-history">
-                        The Coronavirus pandemic was unprecedented and shocking to the whole world, forcing people to remain home in order to ensure their safety. As a result, many lost their jobs or/and found it difficult to find employment, specifically non essential workers, and college and university students. Fortunately, Mads Kaern got in touch with the BioTalent program in order to procure coop students with placements for the summer. Thus, the uOttawa BioTalent project was created.  
+                        The Coronavirus pandemic was unprecedented and shocking to the whole world, forcing people to remain home in order to ensure their safety. As a result, many lost their jobs or/and found it difficult to find employment, specifically non essential workers, and college and university students. Fortunately, Mads Kaern got in touch with the BioTalent program in order to procure coop students with placements for the summer. Thus, the uOttawa BioTalent project was created.
                     </p>
                     <h1 className="aboutusHeaders">Our partners</h1>
                     <a className="biotalent-link" href="https://www.biotalent.ca/" target="_blank">
