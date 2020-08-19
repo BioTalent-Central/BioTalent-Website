@@ -1,18 +1,6 @@
 /* QUOTES */
-
-.leftContent {
-    float: left;
-    width: 50%;
-
-}
-
-.rightContent {
-    float: right;
-    width: 50%;
-}
-
-.oppContainer {
-    background-image: url('images/bckgndtest.jpg');
+.quotesContainer {
+    /*background-image: url('images/backgroundpicOpp.jpg');*/
     background-size: cover;
     width: 100%;
 }
@@ -32,13 +20,14 @@
 }
 
 .quote {
-    font-weight: bold;
-    font-size: 25px;
-    color: white;
-
-    
-    
-    
+    color: black;  
 }
 
+.row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+  
+}
 /*JOIN US BUTTON*/
