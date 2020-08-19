@@ -22,7 +22,7 @@ export default class Content extends React.Component{
           <Row className="row">
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>3D Bioprinting</CardHeader>
+                <CardHeader className="projHeader">3D Bioprinting</CardHeader>
                 <CardImg className="proj-image" src="images/project-seven/jasmeet-with-syringe-pump.jpg" />
                 <CardBody>
                   <p>Design of 3D Bioprinters for BioArt and Tissue Engineering Applications</p>
@@ -35,7 +35,7 @@ export default class Content extends React.Component{
             </Col>
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>BioMakerSpace</CardHeader>
+                <CardHeader className="projHeader">BioMakerSpace</CardHeader>
                 <CardImg className="proj-image" src="images/project-six/BMS.png" />
                 <CardBody>
                   <p>Design and Implementation of Virtual and IRL uOttawa BioMakerSpaces</p>
@@ -48,7 +48,7 @@ export default class Content extends React.Component{
             </Col>
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>Microbrewery & Distillery</CardHeader>
+                <CardHeader className="projHeader">Microbrewery & Distillery</CardHeader>
                 <CardImg className="proj-image" src="images/project-three/Brewery.jpg" />
                 <CardBody>
                   <p>Cost-efficient Technologies for Microbrewery and Craft Distilleries</p>
@@ -64,7 +64,7 @@ export default class Content extends React.Component{
           <Row className="row">
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>COVID MED</CardHeader>
+                <CardHeader className="projHeader">COVID MED</CardHeader>
                 <CardImg className="proj-image" src="images/project-two/CBD.jpg" />
                 <CardBody>
                   <p>Assessment of CBD for the Treatment of Inflammatory Responses in COVID-19 Patients</p>
@@ -77,7 +77,7 @@ export default class Content extends React.Component{
             </Col>
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>BioDigital Policy Horizons</CardHeader>
+                <CardHeader className="projHeader">BioDigital Policy Horizons</CardHeader>
                 <CardImg className="proj-image" src="/images/project-five/biodigital-front-page-2.jpg" />
                 <CardBody>
                   <p>Foresight Analysis and Policy Implications of Biological and Digital Technology Convergence</p>
@@ -90,7 +90,7 @@ export default class Content extends React.Component{
             </Col>
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>BioComputing</CardHeader>
+                <CardHeader className="projHeader">BioComputing</CardHeader>
                 <CardImg className="proj-image" src="images/project-eight/biocomp4.png" />
                 <CardBody>
                   <p>Technologies for RNA-based Biocomputing for "Smart" Biological Devices</p>
@@ -106,7 +106,7 @@ export default class Content extends React.Component{
           <Row className="row">
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>BioEnvo</CardHeader>
+                <CardHeader className="projHeader">BioEnvo</CardHeader>
                 <CardImg className="proj-image" src="images/project-ten/biomol.png" />
                 <CardBody>
                   <p>Biology-based Remediation of Microplastic Pollution to Restore and Revive Freshwater Habitats in the Ottawa River</p>
@@ -119,7 +119,7 @@ export default class Content extends React.Component{
             </Col>
             <Col className = "four columns">
               <Card className="projCard">
-                <CardHeader>COVID ENG</CardHeader>
+                <CardHeader className="projHeader">COVID ENG</CardHeader>
                 <CardImg className="proj-image" src="images/project-one/CovidEng.jpg" />
                 <CardBody>
                   <p>Emerging Biotechnologies for COVID-19 Point-of-care Testing</p>
@@ -132,7 +132,7 @@ export default class Content extends React.Component{
             </Col>
             <Col className="four columns">
               <Card className="projCard">
-                <CardHeader>Gems of the Lower North Shore</CardHeader>
+                <CardHeader className="projHeader">Gems of the Lower North Shore</CardHeader>
                 <CardImg className="proj-image" src="images/project-four/cloud_berries.jpg" />
                 <CardBody>
                   <p>Innovative Natural Resource Development of Quebec's Lower North Shore Region</p>

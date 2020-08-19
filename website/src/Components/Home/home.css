@@ -2,15 +2,41 @@
   background-color: white;
 }
 
-.proj-image{
-  width: 100%;
-}
-
+/*
+------------
+  OVERVIEW
+------------
+ */
 .overview{
   text-align: center;
   padding: 60px;
 }
 
+.overview{
+  text-align: center;
+  background-image: url("images/backdrop4.jpeg");
+  background-size: cover;
+}
+
+.overview p{
+  color: #1d1e3e;
+  text-shadow: 2px 2px 5px #1d1e3e;
+}
+
+.overview h1{
+  color:#1d1e3e;
+  text-shadow: 2px 2px 5px #1d1e3e;
+}
+
+/*
+------------
+  PROJECTS
+------------
+ */
+
+.proj-image{
+  width: 100%;
+}
 
 .projects-container{
   background-color: white;
@@ -31,12 +57,6 @@
   color: #1d1e3e;
 }
 
-.overview{
-  text-align: center;
-  background-image: url("images/backdrop4.jpeg");
-  background-size: cover;
-}
-
 .projCard{
   min-height: 590px;
   margin-bottom: 20px;
@@ -46,25 +66,15 @@
   position: static;
 }
 
-.overview p{
+.projCard Button:hover{
+  background-color: #405A67;
+  box-shadow: 2px 2px 5px #1d1e3e;
+}
+
+.projHeader{
   color: #1d1e3e;
-  text-shadow: 2px 2px 5px #1d1e3e;
+  font-size: 22px;
 }
-
-.overview h1{
-  color:#1d1e3e;
-  text-shadow: 2px 2px 5px #1d1e3e;
-}
-
-.button{
-  padding: 16px;
-  font-size: 16px;
-  position:right;
-  background-color: #1d1e3e;
-  color: #FFFDFB;
-  border: none;
-}
-
 
 .subheading{
   color: #641c30;
@@ -73,51 +83,7 @@
   color: #1d1e3e;
 }
 
-.image-container img{
-  width: 50%;
-  position: relative;
-  text-align: center;
-}
-
 .projects Button{
   background-color: #1d1e3e;
   border: none;
-}
-
-/* Footer  */
-.footer a{
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  font-family: serif;
-}
-
-.footer{
-  padding-top:20px;
-  position: bottom;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #1d1e3e;
-  color: #FFFDFB;
-  vertical-align: middle;
-  margin-top: 20px;
-}
-
-.footer p{
-  color: #FFFDFB;
-  font-size: 16px;
-  text-align: center;
-  margin:10px;
-}
-
-.footer h6{
-  color: #FFFDFB;
-  text-align: center;
-  margin:0;
-}
-
-.footer img{
-  background-color: #1d1e3e;
-  padding-bottom: 20px;
 }

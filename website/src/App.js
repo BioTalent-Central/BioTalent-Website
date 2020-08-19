@@ -7,9 +7,11 @@ import "shards-ui/dist/css/shards.min.css"
 import './nav.css'
 import './skeleton.css'
 import'./normalize.css'
+import './footer.css'
 
 
 import HomeNav from "./components/Home/navbar2"
+import Footer from "./components/Home/footer"
 
 //import NavBar from "./components/NavBar"
 import Project from "./components/Project"
@@ -54,6 +56,7 @@ function App() {
             <Route path="/project9" component={ProjectNine}/>
             <Route path="/project10" component={ProjectTen}/>
           </Switch>
+        <Footer/>
     </BrowserRouter>
 
     </div>
