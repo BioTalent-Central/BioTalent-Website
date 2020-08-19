@@ -10,22 +10,16 @@
     width: 100%;
 }
 
-.oppCard {
-    background-color: transparent;
-    
-}
-
-.cardBody {
-    opacity: 1;
-}
 
 .quote {
-    color: black;  
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .row {
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 10%;
+    margin-bottom: 10%;
     margin-left: 25px;
     margin-right: 25px;
   

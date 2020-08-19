@@ -12,7 +12,7 @@ function aboutus(){
             <HeaderAboutUs />
             <ContentAboutUs />
             <Jumbotron fluid>
-                <div className="aboutus-text-container">
+                <div className="aboutus-partners-container">
                     <h1 className="aboutusHeaders">Our partners</h1>
                     <a className="biotalent-link" href="https://www.biotalent.ca/" target="_blank">
                         <img src={BioTalentimage} className="BTLogoIcon"/>

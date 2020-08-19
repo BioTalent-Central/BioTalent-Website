@@ -20,6 +20,7 @@
 .aboutus-header{
   padding-top: 35px ;
   font-size: 40px;
+  margin-top: 0;
 }
 
 .aboutus-summary {
@@ -47,6 +48,11 @@
 
 .TitleAboutUs{
   font-size: 40px;
+}
+
+.aboutus-partners-container {
+  margin-bottom: 0;
+  
 }
 
 
