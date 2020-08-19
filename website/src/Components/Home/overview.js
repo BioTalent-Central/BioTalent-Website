@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'shards-react'
+import './home.css'
 
 function Overview(){
   return(
