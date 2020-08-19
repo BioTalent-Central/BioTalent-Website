@@ -11,7 +11,6 @@ import './footer.css'
 
 
 import HomeNav from "./components/Home/navbar2"
-import Footer from "./components/Home/footer"
 
 //import NavBar from "./components/NavBar"
 import Project from "./components/Project"

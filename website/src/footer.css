@@ -6,31 +6,34 @@
 }
 
 .footer{
-  padding-top:20px;
   position: bottom;
-  left: 0;
-  bottom: 0;
+  /* left: 0; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* bottom: 0; */
   width: 100%;
   background-color: #1d1e3e;
   color: #FFFDFB;
   vertical-align: middle;
-  margin-top: 20px;
+  text-align: left;
+}
+
+.footer img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1d1e3e;
 }
 
 .footer p{
   color: #FFFDFB;
   font-size: 16px;
   text-align: center;
-  margin:10px;
+  margin:auto;
 }
 
 .footer h6{
   color: #FFFDFB;
   text-align: center;
-  margin:0;
-}
-
-.footer img{
-  background-color: #1d1e3e;
-  padding-bottom: 20px;
+  margin:auto;
 }

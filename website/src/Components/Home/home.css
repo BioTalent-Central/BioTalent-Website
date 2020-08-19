@@ -34,15 +34,15 @@
 ------------
  */
 
-.proj-image{
+.card-image{
   width: 100%;
 }
 
-.projects-container{
+.cards-container{
   background-color: white;
 }
 
-.project-title{
+.content-title{
   background-color: white;
   padding: 10px;
   text-shadow: 2px 2px 5px #1d1e3e;
@@ -53,25 +53,25 @@
   border-top-style: solid;
 }
 
-.project-title h1{
+.content-title h1{
   color: #1d1e3e;
 }
 
-.projCard{
+.card{
   min-height: 590px;
   margin-bottom: 20px;
 }
 
-.projCard Button{
+.card Button{
   position: static;
 }
 
-.projCard Button:hover{
+.card Button:hover{
   background-color: #405A67;
   box-shadow: 2px 2px 5px #1d1e3e;
 }
 
-.projHeader{
+.card-header{
   color: #1d1e3e;
   font-size: 22px;
 }
@@ -83,7 +83,7 @@
   color: #1d1e3e;
 }
 
-.projects Button{
+.card-container Button{
   background-color: #1d1e3e;
   border: none;
 }
