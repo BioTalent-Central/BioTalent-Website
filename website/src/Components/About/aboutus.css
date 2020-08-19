@@ -19,6 +19,7 @@
 
 .aboutus-header{
   padding-top: 35px ;
+  font-size: 40px;
 }
 
 .aboutus-summary {
@@ -32,14 +33,11 @@
 
 /*CONTENT ABOUT US*/
 
-.Row{
-  padding: 20px;
-  display: inline-block;
-}
 
 .leftContent{
   float: left;
   width: 50%;
+  
 }
 
 .rightContent{

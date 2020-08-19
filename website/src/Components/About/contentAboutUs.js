@@ -13,7 +13,7 @@ export default class contentAboutUs extends React.Component{
             <Container className="aboutusContainer">
                 <Row>
                     <Col className="leftContent">
-                        <Card className="test">
+                        <Card>
                             <CardHeader className="TitleAboutUs">Our Vision</CardHeader>
                                 <CardBody>
                                     <p className="aboutus-vision">

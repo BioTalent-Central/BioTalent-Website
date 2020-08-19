@@ -7,8 +7,8 @@ import QuotesOpp from './quotesOpp'
 function opportunities(){
     return (
         <section className="opportunities-section">
-            <JoinUsOpp />
             <QuotesOpp />
+            <JoinUsOpp />
         </section>
     )
 }
