@@ -93,7 +93,7 @@
 }
 
 .footer{
-  padding-top:20px;
+  padding-top:10px;
   position: bottom;
   left: 0;
   bottom: 0;
@@ -115,6 +115,7 @@
   color: #FFFDFB;
   text-align: center;
   margin:0;
+  text-decoration: underline;
 }
 
 .footer img{

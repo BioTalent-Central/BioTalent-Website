@@ -18,6 +18,8 @@ function ProjectSeven() {
 	      	motivation="3D Bioprinters are typically high cost, and we want to make them more accessible for researchers through the development of a low-cost 3D bioprinter that is capable of multi material printing."
 	      />
 
+	     <p className="team-members">Research Assistants</p>
+
 	    <div className="about-the-team">
 
 	    	<div className="member">
