@@ -27,6 +27,7 @@ import aboutus from './components/About/aboutus';
 import opportunities from './components/Opportunities/opportunities';
 import home from './components/Home/home';
 import BioTalent from './components/BioTalent\ page/BioTalentPage'
+import Footer from './components/Home/footer'
 
 
 
@@ -51,7 +52,8 @@ function App() {
             <Route path="/project7" component={ProjectSeven}/>
             <Route path="/project8" component={ProjectEight}/>
             <Route path="/project10" component={ProjectTen}/>
-          </Switch>
+        </Switch>
+        <Footer />
     </BrowserRouter>
 
     </div>
