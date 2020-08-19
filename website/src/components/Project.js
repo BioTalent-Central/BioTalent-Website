@@ -17,16 +17,17 @@ function Project() {
 
 			<Slideshow />
 
-			<ProjDescription description="A total of 50 students studying at the University of Ottawa in a variety of different 
-			fields were recruited to contribute to 10 different student-led projects; this includes a central support team 
-			and 9 teams focused on a unique research project. Students will work for the duration of this co-op work term, 
-			May through August, and new students will join the program in future work terms. New students may start their own 
+			<ProjDescription description="More than 60 science, engineering, and business students
+			were recruited to contribute to 10 different student-led projects; this includes a central support team 
+			and 9 teams focused on a unique research project. Students received the opportunity to translate their academic
+			knowledge into practical biotechnology solutions for real-world problems. Students will work for the duration of this co-op work term, 
+			May through August, and new students will hopefully join the program in future work terms. New students may start their own 
 			research projects, or could continue the research started during the current work term by the students involved 
 			during this term."/> 
 
 			<div className="central-team">
 				<h2>BioTalent Central Team</h2>
-				<p>The BioTalent Central team is working together to provide support to any of the 10 teams
+				<p>The BioTalent Central team is working together to provide support to any of the 9 teams
 				completing their respective research projects by contributing their various skills in the fields
 				of software engineering and commerce. Apart from providing assistance, these four students are the
 				ones responsible for developing the website you are currently looking at! Finally, they play an important
@@ -48,7 +49,7 @@ function Project() {
 		  					uni="the University of Ottawa"/>
 		  		</div>
 		  		<div className="member">
-					<TeamMembers image="/images/headshot4.png"
+					<TeamMembers image="/images/project-central/Larouche.jpg"
 							member="F&eacute;lix Larouche" 
 		  					year="First" 
 		  					program="Software Engineering"
@@ -58,7 +59,7 @@ function Project() {
 		  					uni="the University of Ottawa"/>
 		  		</div>
 		  		<div className="member">
-					<TeamMembers image="/images/headshot2.png"
+					<TeamMembers image="/images/project-central/Tambong.jpg"
 							member="Melanie Tambong" 
 		  					year="Second" 
 		  					program="Commerce (Management)"
@@ -68,7 +69,7 @@ function Project() {
 		  					uni="the University of Ottawa"/>
 		  		</div>
 		  		<div className="member">
-					<TeamMembers image="/images/headshot1.png"
+					<TeamMembers image="/images/project-central/Yee.jpg"
 							member="Vivianne Yee" 
 		  					year="First" 
 		  					program="Software Engineering"

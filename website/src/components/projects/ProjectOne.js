@@ -31,7 +31,7 @@ function ProjectOne() {
 	      					member="Robert Demerjian" 
 		  					year="Second" 
 		  					program="Biochemistry"
-		  					hs="St Joseph Antoine Sisters School"
+		  					hs="St Joseph Antonine Sisters School"
 		  					city="Ksara (Lebanon)"
 		  					gradyear="2017"
 		  					uni="the University of Ottawa"/>
@@ -79,7 +79,7 @@ function ProjectOne() {
 	      					member="Shan Shen" 
 		  					year="Third" 
 		  					program="Biopharmaceutical Science"
-		  					hs="L'Amoureaux Collegiate Institute"
+		  					hs="L'Amoreaux Collegiate Institute"
 		  					city="Toronto"
 		  					gradyear="2017"
 		  					uni="the University of Ottawa"/>
@@ -89,7 +89,7 @@ function ProjectOne() {
 	      					member="Cian Ward" 
 		  					year="Third" 
 		  					program="Biochemistry"
-		  					hs="St. pIus X High School"
+		  					hs="St. Pius X High School"
 		  					city="Ottawa"
 		  					gradyear="2017"
 		  					uni="the University of Ottawa"/>

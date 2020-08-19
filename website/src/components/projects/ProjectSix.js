@@ -82,7 +82,7 @@ function ProjectSix() {
 		      	<TeamMembers image="images/project-six/Leduc.jpeg" 
 		      				member="Zachary Leduc" 
 		  					year="Third" 
-		  					program="Biochemistry"
+		  					program="Biochemistry (Chemical Biology)"
 		  					hs="École Secondaire Du Versant"
 		  					city="Gatineau"
 		  					gradyear="2018"
@@ -92,7 +92,7 @@ function ProjectSix() {
 		      	<TeamMembers image="images/project-six/Yau.jpg" 
 		      				member="Jeremy Yau" 
 		  					year="Third" 
-		  					program="Commerce (Healthcare Analystics)"
+		  					program="Commerce (Healthcare Analytics)"
 		  					hs="AY Jackson Secondary School"
 		  					city="Toronto"
 		  					gradyear="2017"
@@ -136,7 +136,7 @@ function ProjectSix() {
 		      				member="Stephanie Partheniou" 
 		  					year="Third" 
 		  					program="Biochemistry with a specialization in Microbiology and Immunology (Frech Immersion Stream)"
-		  					hs="A.N Myer Secondary School"
+		  					hs="A.N. Myer Secondary School"
 		  					city="Niagara Falls"
 		  					gradyear="2018"
 		  					uni="the University of Ottawa"/>
@@ -147,7 +147,7 @@ function ProjectSix() {
 		  					year="Third" 
 		  					program="Chemical Engineering"
 		  					hs="Senegalese American Bilingual School"
-		  					city="Dakar, Senegal"
+		  					city="Dakar (Senegal)"
 		  					gradyear="2018"
 		  					uni="the University of Ottawa"/>
 		      </div>

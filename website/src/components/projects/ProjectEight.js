@@ -33,7 +33,7 @@ function ProjectEight() {
 		  					program="Mechanical Engineering and Computing Technology"
 		  					hs="West Humber COllegiate Institute"
 		  					city="Etobicoke"
-		  					gradyear="****"
+		  					gradyear="2016"
 		  					uni="the University of Ottawa"/>
 	      	</div>
 	      	<div className="member">
@@ -110,7 +110,7 @@ function ProjectEight() {
 	      	<div className="member">
 	      		<TeamMembers image="images/project-eight/Radwan.png" 
 	      					member="Mohamad Radwan" 
-		  					year="Second" 
+		  					year="First" 
 		  					program="Biochemistry and Chemical Engineering"
 		  					hs="Sir Wilfrid Laurier Secondary School"
 		  					city="Ottawa"
