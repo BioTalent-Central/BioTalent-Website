@@ -27,7 +27,7 @@ export default class Footer extends React.Component{
           </div>
           <div>
             <div className="twelve columns">
-              <img src={Logo}/>
+              <img src={Logo} alt="logo"/>
             </div>
           </div>
         </div>

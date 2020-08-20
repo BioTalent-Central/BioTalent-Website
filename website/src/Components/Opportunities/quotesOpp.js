@@ -1,6 +1,5 @@
 import React from 'react'
 import "shards-ui/dist/css/shards.min.css"
-import Picture from './images/image1.jpg'
 
 export default class contentAboutUs extends React.Component{
     render() {
@@ -12,7 +11,7 @@ export default class contentAboutUs extends React.Component{
                 <div className="row">
                     <div className="two columns">
                       <div className="quote-image">
-                        <img src='images/project-six/Laberge.jpg'/>
+                        <img src='images/project-six/Laberge.jpg' alt="StudentPic"/>
                       </div>
                     </div>
                     <div className="ten columns">
@@ -47,7 +46,7 @@ export default class contentAboutUs extends React.Component{
                     </div>
                     <div className="two columns">
                       <div className="quote-image">
-                        <img src='images/project-six/Hallal.png'/>
+                        <img src='images/project-six/Hallal.png' alt="StudentPic"/>
                       </div>
                     </div>
                 </div>
@@ -56,7 +55,7 @@ export default class contentAboutUs extends React.Component{
                 <div className="row">
                   <div className="two columns">
                     <div className="quote-image">
-                        <img src='images/project-eight/Hwang.png'/>
+                        <img src='images/project-eight/Hwang.png' alt="StudentPic"/>
                     </div>
                   </div>
                     <div className="ten columns">

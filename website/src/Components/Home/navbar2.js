@@ -12,10 +12,6 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText,
-  FormInput,
   Collapse
 } from "shards-react"
 
@@ -55,7 +51,7 @@ export default class HomeNav extends React.Component {
     return (
       <div className="header">
         <Navbar expand="md">
-          <NavbarBrand href="/home"><img src={Logo}/></NavbarBrand>
+          <NavbarBrand href="/home"><img src={Logo} alt="logo"/></NavbarBrand>
           <NavbarToggler onHover={this.toggleNavbar} />
 
           <Collapse open={this.state.collapseOpen} navbar>

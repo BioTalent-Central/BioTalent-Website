@@ -27,7 +27,7 @@ import ProjectTen from "./components/projects/ProjectTen"
 import aboutus from './components/About/aboutus';
 import opportunities from './components/Opportunities/opportunities';
 import home from './components/Home/home';
-import BioTalent from './components/BioTalent\ page/BioTalentPage'
+import BioTalent from './components/BioTalent page/BioTalentPage'
 import Footer from './components/Home/footer'
 
 
