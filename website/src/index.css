@@ -13,6 +13,7 @@ h1, h2{
   color: #1d1e3e;
 }
 
+
 /*
 PROJECT PAGES
 =============
@@ -37,6 +38,7 @@ PROJECT PAGES
  font-size: 22px;
 }
 
+
 .about-the-team{
   display: flex;
   justify-content: center;
@@ -44,10 +46,10 @@ PROJECT PAGES
   margin: 10px 10px 75px 10px;
 }
 
-.member{
-  padding: 10px;
-  width: 25%;
-}
+
+/*
+CENTRAL TEAM PROJECT DESCRIPTION
+*/
 
 .central-team{
   margin: 30px;
@@ -62,14 +64,34 @@ PROJECT PAGES
 TEAM MEMBER IMAGES AND NAMES
 */
 
+.team-members{
+  font-size: 35px;
+  font-family: Copperplate;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 20px 0px 5px 0px;
+  margin-top: 10px;
+}
+
+.member{
+  padding: 10px;
+  width: 25%;
+}
+
 .member-card{
   min-height: 420px;
 }
 
-.images{
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+.img-container{
+  position: relative;
+}
+
+.img-container:hover .headshots{
+  opacity: 0.4;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
 }
 
 .headshots {
@@ -94,18 +116,6 @@ TEAM MEMBER IMAGES AND NAMES
   text-align: center;
 }
 
-.img-container{
-  position: relative;
-}
-
-.img-container:hover .headshots{
-  opacity: 0.4;
-}
-
-.img-container:hover .middle {
-  opacity: 1;
-}
-
 .img-text{
   background-color: #1d1e3e;
   padding: 12px;
@@ -117,16 +127,21 @@ TEAM MEMBER IMAGES AND NAMES
   width: 300px;
 }
 
-.supervisor, .student{
-  color: #1d1e3e;
-	font-size: 20px;
-	font-family: Copperplate;
-}
 
 .supervisor {
   margin-bottom: 30px;
-  
 }
+
+.images{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+/*
+SUPERVISOR NAME AND INFO
+*/
 
 .supervisor-container{
   background-color: #fffdfb;
@@ -136,6 +151,10 @@ TEAM MEMBER IMAGES AND NAMES
   margin-top: 20px;
   margin-bottom: 50px;
   padding-bottom: 10px;
+}
+
+.supervisor {
+  margin-bottom: 30px;
 }
 
 .supervisor-info{
@@ -151,10 +170,17 @@ TEAM MEMBER IMAGES AND NAMES
   padding: 20px 0px 5px 0px;
   margin-top: 10px;
 }
+.supervisor, .student{
+  color: #1d1e3e;
+	font-size: 20px;
+	font-family: Copperplate;
+}
+
 
 
 /*
 SLIDESHOW
+=========
 */
 
 .slideshow{
