@@ -20,12 +20,12 @@
 
 .overview p{
   color: #1d1e3e;
-  text-shadow: 2px 2px 5px #1d1e3e;
+  font-size: 22px;
 }
 
 .overview h1{
   color:#1d1e3e;
-  text-shadow: 2px 2px 5px #1d1e3e;
+  text-shadow: 1px 1px 2px #1d1e3e;
 }
 
 /*
@@ -45,7 +45,7 @@
 .content-title{
   background-color: white;
   padding: 10px;
-  text-shadow: 2px 2px 5px #1d1e3e;
+  text-shadow: 1px 1px 2px #1d1e3e;
   margin-bottom: 20px;
   border-bottom-color: #1d1e3e;
   border-bottom-style: solid;
