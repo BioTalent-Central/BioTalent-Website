@@ -5,6 +5,9 @@
   font-family: serif;
 }
 
+.footer a:hover{
+  color: #979797;
+}
 .footer{
   position: bottom;
   /* left: 0; */

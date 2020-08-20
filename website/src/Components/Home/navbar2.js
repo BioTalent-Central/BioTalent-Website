@@ -62,17 +62,17 @@ export default class HomeNav extends React.Component {
             <Nav navbar>
               <NavItem>
                 <NavLink active href="/home" className="nav_link">
-                  Home
+                  <h4>Home</h4>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink active href="/about" className="nav_link">
-                  About Us
+                  <h4>About Us</h4>
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink active href="/opportunities" className="nav_link">
-                  Opportunities
+                  <h4>Opportunities</h4>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -82,7 +82,7 @@ export default class HomeNav extends React.Component {
                 >
 
                   <NavLink active href="/project" className="nav_link">
-                    Projects
+                    <h4>Projects</h4>
                   </NavLink>
                   <DropdownToggle split className="arrow">
                   </DropdownToggle>
@@ -96,14 +96,14 @@ export default class HomeNav extends React.Component {
                     <NavLink active href="/project6"><DropdownItem className="dItem">BioMakerSpace</DropdownItem></NavLink>
                     <NavLink active href="/project7"><DropdownItem className="dItem">3D Bioprinting</DropdownItem></NavLink>
                     <NavLink active href="/project8"><DropdownItem className="dItem">BioComputing</DropdownItem></NavLink>
-                    
+
                     <NavLink active href="/project10"><DropdownItem className="dItem">BioEnvo</DropdownItem></NavLink>
                   </DropdownMenu>
                 </Dropdown>
               </NavItem>
               <NavItem>
                 <NavLink active href="/biotalent" className="nav_link">
-                  BioTalent
+                  <h4>BioTalent</h4>
                 </NavLink>
               </NavItem>
             </Nav>
