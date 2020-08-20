@@ -16,6 +16,10 @@
   border:none;
 }
 
+.arrow:hover{
+  background-color: #979797;
+}
+
 .dItem{
   color: #fffdfb;
 }
@@ -23,6 +27,15 @@
 .nav_link{
   font-size: 20px;
   font-family: sans-serif;
+}
+.nav_link h4{
+  padding-top: 25px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.nav_link h4:hover{
+  color: #979797;
 }
 
 .navbar{

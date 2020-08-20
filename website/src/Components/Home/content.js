@@ -131,7 +131,7 @@ export default class Content extends React.Component{
               </Card>
             </Col>
             <Col className="four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">Gems of the LNS</CardHeader>
                 <CardImg className="card-image" src="images/project-four/cloud_berries.jpg" />
                 <CardBody>

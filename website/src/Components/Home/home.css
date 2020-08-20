@@ -56,8 +56,12 @@
 }
 
 .cards{
-  min-height: 590px;
+  min-height: 500px;
   margin-bottom: 20px;
+}
+
+.cards p{
+  min-height: 120px;
 }
 
 .cards Button{
@@ -125,4 +129,3 @@
   background-color: #1d1e3e;
   padding-bottom: 20px;
 }
-

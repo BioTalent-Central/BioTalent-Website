@@ -42,6 +42,7 @@
 .quote-image img{
   width: 175px;
   border-radius: 50%;
+  padding: 5%;
 }
 
 .quote-image p{
