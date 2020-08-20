@@ -110,7 +110,7 @@ export default class Content extends React.Component{
                 <CardImg className="card-image" src="images/project-ten/biomol.png" />
                 <CardBody>
                   <p>Biology-based Remediation of Microplastic Pollution to Restore and Revive Freshwater Habitats in the Ottawa River</p>
-                    <NavLink active href='/project9'>
+                    <NavLink active href='/project10'>
                       <Button>Project page &rarr;</Button>
                     </NavLink>
                 </CardBody>
@@ -131,8 +131,8 @@ export default class Content extends React.Component{
               </Card>
             </Col>
             <Col className="four columns">
-              <Card className="cards">
-                <CardHeader className="card-header">Gems of the Lower North Shore</CardHeader>
+              <Card className="card">
+                <CardHeader className="card-header">Gems of the LNS</CardHeader>
                 <CardImg className="card-image" src="images/project-four/cloud_berries.jpg" />
                 <CardBody>
                   <p>Innovative Natural Resource Development of Quebec's Lower North Shore Region</p>

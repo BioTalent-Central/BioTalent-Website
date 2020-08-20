@@ -3,9 +3,6 @@ import React from 'react';
 
 import ProjTitle from "./proj-components/ProjTitle"
 import ProjImage from "./proj-components/ProjImage"
-import ProjDescription from "./proj-components/ProjDescription"
-import ProjExtResources from "./proj-components/ProjExtResources"
-import TeamMemberImage from "./proj-components/TeamMemberImage"
 import TeamMembers from "./proj-components/TeamMembers"
 import Supervisor from "./proj-components/Supervisor"
 
@@ -20,6 +17,8 @@ function ProjectSeven() {
 	      	description="3D bioprinting has emerged as a powerful technique to reconstruct the complex anisotropic structures of our tissues, in a way that other scaffold fabrication techniques have not allowed thus far. A number of technologies have been developed for this purpose, each with benefits and limitations. The goals of this project are to generate comprehensive knowledge of these technologies, and to develop a detailed plan to build a novel, cost-effective and versatile 3D bioprinting system that can generate complex multicellular and anisotropic tissue structures for a range of applications."
 	      	motivation="3D Bioprinters are typically high cost, and we want to make them more accessible for researchers through the development of a low-cost 3D bioprinter that is capable of multi material printing."
 	      />
+
+	     <p className="team-members">Research Assistants</p>
 
 	    <div className="about-the-team">
 

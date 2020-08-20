@@ -1,11 +1,8 @@
 import React from "react"
-import { Container, Row, Col } from "shards-react"
-
 
 import ProjTitle from "./projects/proj-components/ProjTitle"
-import ProjDescription from "./projects/proj-components/ProjDescription"
-import TeamMemberImage from "./projects/proj-components/TeamMemberImage"
 import Slideshow from "./Slideshow"
+import ProjDescription from "./projects/proj-components/ProjDescription"
 import Supervisor from "./projects/proj-components/Supervisor"
 import TeamMembers from "./projects/proj-components/TeamMembers"
 

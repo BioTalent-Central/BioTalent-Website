@@ -3,9 +3,6 @@ import React from 'react';
 
 import ProjTitle from "./proj-components/ProjTitle"
 import ProjImage from "./proj-components/ProjImage"
-import ProjDescription from "./proj-components/ProjDescription"
-import ProjExtResources from "./proj-components/ProjExtResources"
-import TeamMemberImage from "./proj-components/TeamMemberImage"
 import TeamMembers from "./proj-components/TeamMembers"
 import Supervisor from "./proj-components/Supervisor"
 
@@ -75,7 +72,7 @@ There is an emphasis on sustainability both ecologically and economically for bo
 
   				<p className="team-members">Supervisors</p>
 
-  				<Supervisor name="Andrew, Sowinski,  Ph.D., P.Eng"
+  				<Supervisor name="Andrew Sowinski, PhD, P.Eng"
   					work="Department of Chemical and Biological Engineering, University of Ottawa"
   					email="sowinski@uottawa.ca"/>
 
