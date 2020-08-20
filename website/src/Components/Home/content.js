@@ -132,7 +132,7 @@ export default class Content extends React.Component{
             </Col>
             <Col className="four columns">
               <Card className="card">
-                <CardHeader className="card-header">Gems of the Lower North Shore</CardHeader>
+                <CardHeader className="card-header">Gems of the LNS</CardHeader>
                 <CardImg className="card-image" src="images/project-four/cloud_berries.jpg" />
                 <CardBody>
                   <p>Innovative Natural Resource Development of Quebec's Lower North Shore Region</p>
