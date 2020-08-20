@@ -10,10 +10,8 @@
 .overview{
   text-align: center;
   padding: 60px;
-}
-
-.overview{
-  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
   background-image: url("images/backdrop4.jpeg");
   background-size: cover;
 }
@@ -57,16 +55,16 @@
   color: #1d1e3e;
 }
 
-.card{
+.cards{
   min-height: 590px;
   margin-bottom: 20px;
 }
 
-.card Button{
+.cards Button{
   position: static;
 }
 
-.card Button:hover{
+.cards Button:hover{
   background-color: #405A67;
   box-shadow: 2px 2px 5px #1d1e3e;
 }

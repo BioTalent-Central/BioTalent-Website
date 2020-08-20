@@ -13,7 +13,7 @@ export default class contentAboutUs extends React.Component{
             <Container className="aboutusContainer">
                 <Row>
                     <Col className="leftContent">
-                        <Card>
+                        <Card className="au-card">
                             <CardHeader className="TitleAboutUs">Our Vision</CardHeader>
                                 <CardBody>
                                     <p className="aboutus-vision">
@@ -23,7 +23,7 @@ export default class contentAboutUs extends React.Component{
                         </Card>
                     </Col>
                     <Col className="rightContent">
-                        <Card>
+                        <Card className="au-card">
                             <CardHeader className="TitleAboutUs">Our Mission</CardHeader>
                                 <CardBody>
                                     <p className="aboutus-mission">
@@ -35,7 +35,7 @@ export default class contentAboutUs extends React.Component{
                 </Row>
                 <Row>
                     <Col className="leftContent">
-                        <Card>
+                        <Card className="au-card">
                             <CardHeader className="TitleAboutUs">Our Values</CardHeader>
                                 <CardBody>
                                     <p className='aboutus-values'>
@@ -45,16 +45,16 @@ export default class contentAboutUs extends React.Component{
                         </Card>
                     </Col>
                     <Col className="rightContent">
-                        <Card>
+                        <Card className="au-card">
                             <CardHeader className="TitleAboutUs">Our History</CardHeader>
                                 <CardBody>
                                     <p className="aboutus-history">
-                                        The Coronavirus pandemic was unprecedented and shocking to the whole world, forcing people to remain home in order to ensure their safety. As a result, many lost their jobs or/and found it difficult to find employment, specifically non essential workers, and college and university students. Fortunately, Mads Kaern got in touch with the BioTalent program in order to procure coop students with placements for the summer. Thus, the uOttawa BioTalent project was created.  
+                                        The Coronavirus pandemic was unprecedented and shocking to the whole world, forcing people to remain home in order to ensure their safety. As a result, many lost their jobs or/and found it difficult to find employment, specifically non essential workers, and college and university students. Fortunately, Mads Kaern got in touch with the BioTalent program in order to procure coop students with placements for the summer. Thus, the uOttawa BioTalent project was created.
                                     </p>
                                 </CardBody>
                         </Card>
                     </Col>
-                </Row>  
+                </Row>
             </Container>
         )
     }

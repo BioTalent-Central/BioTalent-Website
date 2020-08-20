@@ -12,7 +12,7 @@ export default class Footer extends React.Component{
             <div className="four columns">
               <h6>Contact Us</h6>
               <p>(613) 562-5741</p>
-              <p>75 Laurier Ave. East,<br/>Ottawa ON K1N 6N5 Canada</p>
+              <p>3101 - 55 Laurier Avenue East,<br/>Ottawa ON K1N 6N5 Canada</p>
               <p>biotalentcentral@gmail.com</p>
             </div>
             <div className="four columns">
