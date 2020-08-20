@@ -5,7 +5,7 @@ export default class contentAboutUs extends React.Component{
     render() {
         return (
           <div>
-            <div className="content-title"><h1>Testimonials</h1></div>
+            <div className="content-title-opp"><h1>Testimonials</h1></div>
             <div className="quotesContainer">
               <div className="quote-row">
                 <div className="row">
