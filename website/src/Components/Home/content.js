@@ -21,7 +21,7 @@ export default class Content extends React.Component{
         <Container className ="card-container">
           <Row className="row">
             <Col className = "four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">3D Bioprinting</CardHeader>
                 <CardImg className="card-image" src="images/project-seven/jasmeet-with-syringe-pump.jpg" />
                 <CardBody>
@@ -34,7 +34,7 @@ export default class Content extends React.Component{
               </Card>
             </Col>
             <Col className = "four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">BioMakerSpace</CardHeader>
                 <CardImg className="card-image" src="images/project-six/BMS.png" />
                 <CardBody>
@@ -47,7 +47,7 @@ export default class Content extends React.Component{
               </Card>
             </Col>
             <Col className = "four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">Microbrewery & Distillery</CardHeader>
                 <CardImg className="card-image" src="images/project-three/Brewery.jpg" />
                 <CardBody>
@@ -63,7 +63,7 @@ export default class Content extends React.Component{
 
           <Row className="row">
             <Col className = "four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">COVID MED</CardHeader>
                 <CardImg className="card-image" src="images/project-two/CBD.jpg" />
                 <CardBody>
@@ -76,7 +76,7 @@ export default class Content extends React.Component{
               </Card>
             </Col>
             <Col className = "four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">BioDigital Policy Horizons</CardHeader>
                 <CardImg className="card-image" src="/images/project-five/biodigital-front-page-2.jpg" />
                 <CardBody>
@@ -89,7 +89,7 @@ export default class Content extends React.Component{
               </Card>
             </Col>
             <Col className = "four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">BioComputing</CardHeader>
                 <CardImg className="card-image" src="images/project-eight/biocomp4.png" />
                 <CardBody>
@@ -105,7 +105,7 @@ export default class Content extends React.Component{
 
           <Row className="row">
             <Col className = "four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">BioEnvo</CardHeader>
                 <CardImg className="card-image" src="images/project-ten/biomol.png" />
                 <CardBody>
@@ -118,7 +118,7 @@ export default class Content extends React.Component{
               </Card>
             </Col>
             <Col className = "four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">COVID ENG</CardHeader>
                 <CardImg className="card-image" src="images/project-one/CovidEng.jpg" />
                 <CardBody>
@@ -131,7 +131,7 @@ export default class Content extends React.Component{
               </Card>
             </Col>
             <Col className="four columns">
-              <Card className="card">
+              <Card className="cards">
                 <CardHeader className="card-header">Gems of the Lower North Shore</CardHeader>
                 <CardImg className="card-image" src="images/project-four/cloud_berries.jpg" />
                 <CardBody>
