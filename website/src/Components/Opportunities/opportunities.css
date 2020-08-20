@@ -17,11 +17,57 @@
     margin-right: 5%;
 }
 
-.row {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 25px;
-    margin-right: 25px;
+
+/*JOIN US BUTTON source : https://codepen.io/JeremyWink/pen/LYPMLLV */
+
+.joinUsBtn {
+    text-decoration: none;
+    border: 1px solid rgb(128, 0, 0);
+    position: relative;
+    overflow: hidden;
+    font-size: 5.5rem;
+    padding: 1rem 3rem;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-weight: bold;
+    
+  }
   
+  .joinUsBtn:hover {
+    box-shadow: 1px 1px 25px 10px rgba(128, 0, 0, 0.4);
+    text-decoration: none;
+    color: white;
+  }
+  
+  .joinUsBtn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(128, 0, 0, 0.4),
+      transparent
+    );
+    transition: all 650ms;
+  }
+  
+  .joinUsBtn:hover:before {
+    left: 100%;
+  }
+  
+
+.joinUsSection {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://images.pexels.com/photos/2166927/pexels-photo-2166927.jpeg?cs=srgb&dl=animal-aquarium-aquatic-2166927.jpg&fm=jpg)
+      no-repeat center center/cover;
+  font-family: Arial, Helvetica, sans-serif;
 }
-/*JOIN US BUTTON*/
