@@ -2,7 +2,8 @@
 .quotesContainer {
     /*background-image: url('images/backgroundpicOpp.jpg');*/
     background-size: cover;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 .opportunities-section {
@@ -10,11 +11,51 @@
     width: 100%;
 }
 
+.quote{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
-.quote {
+.quote-name{
+  text-align: left;
+  font-size: 24px;
+  margin:0
+}
+
+.quote-description{
+  font-size: 16px;
+}
+
+.statement {
     color: black;
-    margin-left: 5%;
-    margin-right: 5%;
+    text-align: left;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.quote-image{
+  display: block;
+  text-align: center;
+}
+
+.quote-image img{
+  width: 175px;
+  border-radius: 50%;
+}
+
+.quote-image p{
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+
+.quote-row {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 25px;
+    margin-right: 25px;
+
 }
 
 
@@ -27,7 +68,7 @@
     overflow: hidden;
     font-size: 5.5rem;
     padding: 1rem 3rem;
-    color: #f4f4f4;
+    color: #1d1e3e;
     text-transform: uppercase;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     font-weight: bold;
@@ -37,7 +78,7 @@
   .joinUsBtn:hover {
     box-shadow: 1px 1px 25px 10px rgba(128, 0, 0, 0.4);
     text-decoration: none;
-    color: white;
+    color:#1d1e3e;
   }
   
   .joinUsBtn:before {
@@ -65,9 +106,9 @@
     display : flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(https://images.pexels.com/photos/2166927/pexels-photo-2166927.jpeg?cs=srgb&dl=animal-aquarium-aquatic-2166927.jpg&fm=jpg)
-      no-repeat center center/cover;
-  font-family: Arial, Helvetica, sans-serif;
+    height: 30vh;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/*JOIN US BUTTON*/

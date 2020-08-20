@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'shards-react'
+import './home.css'
 
 function Overview(){
   return(
@@ -12,7 +13,7 @@ function Overview(){
         </Row>
         <Row>
           <Col>
-            <p>The uOttawa Biotalent program allows students to explore different areas of biotechnology while getting hands on work experience.</p>
+            <p>Where students can explore different areas of biotechnology while getting hands on work experience.</p>
           </Col>
         </Row>
       </Container>

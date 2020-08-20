@@ -2,33 +2,14 @@
   background-color: white;
 }
 
-.proj-image{
-  width: 100%;
-}
-
+/*
+------------
+  OVERVIEW
+------------
+ */
 .overview{
   text-align: center;
   padding: 60px;
-}
-
-
-.projects-container{
-  background-color: white;
-}
-
-.project-title{
-  background-color: white;
-  padding: 10px;
-  text-shadow: 2px 2px 5px #1d1e3e;
-  margin-bottom: 20px;
-  border-bottom-color: #1d1e3e;
-  border-bottom-style: solid;
-  border-top-color: #1d1e3e;
-  border-top-style: solid;
-}
-
-.project-title h1{
-  color: #1d1e3e;
 }
 
 .overview{
@@ -37,34 +18,63 @@
   background-size: cover;
 }
 
-.projCard{
-  min-height: 590px;
-  margin-bottom: 20px;
-}
-
-.projCard Button{
-  position: static;
-}
-
 .overview p{
   color: #1d1e3e;
-  text-shadow: 2px 2px 5px #1d1e3e;
+  font-size: 22px;
 }
 
 .overview h1{
   color:#1d1e3e;
-  text-shadow: 2px 2px 5px #1d1e3e;
+  text-shadow: 1px 1px 2px #1d1e3e;
 }
 
-.button{
-  padding: 16px;
-  font-size: 16px;
-  position:right;
-  background-color: #1d1e3e;
-  color: #FFFDFB;
-  border: none;
+/*
+------------
+  PROJECTS
+------------
+ */
+
+.card-image{
+  width: 100%;
 }
 
+.cards-container{
+  background-color: white;
+}
+
+.content-title{
+  background-color: white;
+  padding: 10px;
+  text-shadow: 1px 1px 2px #1d1e3e;
+  margin-bottom: 20px;
+  border-bottom-color: #1d1e3e;
+  border-bottom-style: solid;
+  border-top-color: #1d1e3e;
+  border-top-style: solid;
+}
+
+.content-title h1{
+  color: #1d1e3e;
+}
+
+.card{
+  min-height: 590px;
+  margin-bottom: 20px;
+}
+
+.card Button{
+  position: static;
+}
+
+.card Button:hover{
+  background-color: #405A67;
+  box-shadow: 2px 2px 5px #1d1e3e;
+}
+
+.card-header{
+  color: #1d1e3e;
+  font-size: 22px;
+}
 
 .subheading{
   color: #641c30;
@@ -73,51 +83,7 @@
   color: #1d1e3e;
 }
 
-.image-container img{
-  width: 50%;
-  position: relative;
-  text-align: center;
-}
-
-.projects Button{
+.card-container Button{
   background-color: #1d1e3e;
   border: none;
-}
-
-/* Footer  */
-.footer a{
-  color: white;
-  text-align: center;
-  font-size: 16px;
-  font-family: serif;
-}
-
-.footer{
-  padding-top:20px;
-  position: bottom;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #1d1e3e;
-  color: #FFFDFB;
-  vertical-align: middle;
-  margin-top: 20px;
-}
-
-.footer p{
-  color: #FFFDFB;
-  font-size: 16px;
-  text-align: center;
-  margin:10px;
-}
-
-.footer h6{
-  color: #FFFDFB;
-  text-align: center;
-  margin:0;
-}
-
-.footer img{
-  background-color: #1d1e3e;
-  padding-bottom: 20px;
 }
