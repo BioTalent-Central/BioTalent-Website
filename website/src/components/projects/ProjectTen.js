@@ -195,7 +195,7 @@ microplastics in our environment."
 	        <ProjTitle projTitle="Emerging Contaminants Policy Memo"/>
 	      <ProjImage projImage="/images/project-ten/bioenvo5.jpg"
 	      		description="Through talking to municipalities all across Ontario, representatives of marginalized communities, as well as the MECP, an increase of emerging contaminants found in our wastewater was a large concern. In order to address this issue, our team decided to use information collected from interviews to write and implement this policy memo. We aim to make it the most effective and accomodating for all, however, understand that due to limitations there is still much to be done."
-		      	motivation="We are doing this because there is an abundant amount of emerging contaminants affecting public health, cultural practices and environmental concerns - and someone needs to voice concerns + possible solutions!!"
+		      	motivation="We are doing this because there is an abundant amount of emerging contaminants affecting public health, cultural practices and environmental concerns - and someone needs to voice concerns and possible solutions!"
 	      />
 
 	      <p className="team-members">Research Assistants</p>
@@ -253,7 +253,7 @@ microplastics in our environment."
 					work="Department of Cellular and Molecular Medecine, University of Ottawa"
 					email="mkaern@uottawa.ca"/>
 
-				<Supervisor name="Christopher Lan, Ph.D. M.Sc."
+				<Supervisor name="Christopher Lan, MSc, PhD"
 					work="Department of Chemical and Biological Engineering, University of Ottawa"
 					email="Christopher.Lan@uottawa.ca"/>
 

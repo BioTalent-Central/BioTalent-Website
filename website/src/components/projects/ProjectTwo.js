@@ -58,7 +58,7 @@ function ProjectTwo() {
 
 				<p className="team-members">Supervisor</p>
 
-			  		<Supervisor name="Xudong Cao, PhD."
+			  		<Supervisor name="Xudong Cao, PhD"
 			  			work="Department of Chemical Engineering, University of Ottawa"
 			  			email="xcao@uOttawa.ca"/>
 

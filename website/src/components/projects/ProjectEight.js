@@ -15,8 +15,8 @@ function ProjectEight() {
 
 	      <ProjTitle projTitle="RNA-based Computing: CAD Software"/>
 	      <ProjImage projImage="/images/project-eight/biocomp1.png"
-	      		description="To develop a virtual CAD platform to design and simulate models of RNA-based gene regulatory networks."
-				motivation="RNA-based biocomputing is a unique and growing field with bridge between circuit design and regulatory networks continuously growing. While understanding the future possibilities of this field we recognize the importance of having a CAD software that was built from the ground up by University of Ottawa students, for uOttawa students. This allows for more possibilities in future development, and complete access and reliability."
+	      		description="Our goal is to develop a virtual CAD platform to design and simulate models of RNA-based gene regulatory networks."
+				motivation="RNA-based biocomputing is a unique and growing field with bridge between circuit design and regulatory networks continuously growing. While understanding the future possibilities of this field, we recognize the importance of having a CAD software that was built from the ground up by University of Ottawa students, for uOttawa students. This allows for more possibilities in future development, and complete access and reliability."
 	      />
 
 	      <p className="team-members">Research Assistants</p>
