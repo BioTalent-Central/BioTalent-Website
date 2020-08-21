@@ -8,6 +8,10 @@ The website was developed using ReactJS, a widely used front end and back end de
 We learned ReactJS using a free online tutorial that can be found at the following link: 
 https://scrimba.com/g/glearnreact
 
+The React repo (for more useful information) : https://github.com/facebook/react
+
+For how to install and use React, click on the website folder and read the documentation.
+
 The colour scheme used throughout the website:
 dark blue: #1d1e3e
 dark red: #641c30
