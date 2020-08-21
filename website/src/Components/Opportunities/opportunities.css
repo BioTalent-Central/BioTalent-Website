@@ -1,4 +1,17 @@
 /* QUOTES */
+
+.content-title-opp{
+  margin-top: 25px;
+  background-color: white;
+  padding: 10px;
+  text-shadow: 1px 1px 2px #1d1e3e;
+  margin-bottom: 20px;
+  border-bottom-color: #1d1e3e;
+  border-bottom-style: solid;
+  border-top-color: #1d1e3e;
+  border-top-style: solid;
+}
+
 .quotesContainer {
     /*background-image: url('images/backgroundpicOpp.jpg');*/
     background-size: cover;
@@ -31,8 +44,7 @@
     color: black;
     text-align: left;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 12px;
-
+    font-size: 14px;
 }
 
 .quote-image{

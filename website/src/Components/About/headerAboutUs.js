@@ -10,7 +10,7 @@ function HeaderAboutUs() {
 
             <div>
             <p className="aboutus-summary">
-                The uOttawa BioTalent program involves teams of students from many different faculties, leading their own projects to suggest solutions to a real-world biotechnology problem. In the first year of this program, 11 students were recruited to develop unique projects and specific project outcomes in order to create a team of students that can fill gaps in their knowledge and competencies, and contribute to the completion of their project.
+                The uOttawa BioTalent program involves teams of students from many different faculties, leading their own projects to suggest solutions to a real-world biotechnology problem. In the first year of this program, 11 students were recruited to develop unique projects and specific project outcomes in order to create a team of students that could fill gaps in their knowledge and competencies, and contribute to the completion of their project.
             </p>
             <br/>
             </div>

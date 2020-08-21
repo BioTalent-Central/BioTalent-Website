@@ -49,7 +49,7 @@ export default class contentAboutUs extends React.Component{
                             <CardHeader className="TitleAboutUs">Our History</CardHeader>
                                 <CardBody>
                                     <p className="aboutus-history">
-                                        The Coronavirus pandemic was unprecedented and shocking to the whole world, forcing people to remain home in order to ensure their safety. As a result, many lost their jobs or/and found it difficult to find employment, specifically non essential workers, and college and university students. Fortunately, Mads Kaern got in touch with the BioTalent program in order to procure coop students with placements for the summer. Thus, the uOttawa BioTalent project was created.
+                                        The Coronavirus pandemic was unprecedented and shocking to the whole world, forcing people to remain home in order to ensure their safety. As a result, many lost their jobs and/or found it difficult to find employment, specifically, non essential workers, and college and university students. Fortunately, Mads Kaern got in touch BioTalent in order to procure co-op students with placements for the summer. Thus, the uOttawa BioTalent program was created.
                                     </p>
                                 </CardBody>
                         </Card>

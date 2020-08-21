@@ -5,7 +5,7 @@ export default class contentAboutUs extends React.Component{
     render() {
         return (
           <div>
-            <div className="content-title"><h1>Testimonials</h1></div>
+            <div className="content-title-opp"><h1>Testimonials</h1></div>
             <div className="quotesContainer">
               <div className="quote-row">
                 <div className="row">
@@ -64,7 +64,7 @@ export default class contentAboutUs extends React.Component{
                           Roy Hwang
                         </h4>
                         <p className ="quote-description">
-                          Research Assistant, Biocomputing
+                          Research Assistant, BioComputing
                         </p>
                           <p className="statement">
                               "The Biotalent program aids students to apply their current understanding learned from school to an application-based student led project with a team of passionate peers. I enjoyed my work term discovering more about RNA-based biocomputing and how the aspects of engineering and biology come together to modernize computable technology. I would highly recommend this program to any student interested in research project development and curious about the advancement of synthetic biology and the biotechnology industry."
