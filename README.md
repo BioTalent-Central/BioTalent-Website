@@ -23,4 +23,3 @@ Some ideas for future work and improvements:
 - Improve overall aesthetics of website to increase professionalism
 - Make website more functional for smaller browser windows (ex: team member information boxes, student testimonies)
 - Make website mobile compatible
-- Center footer information
