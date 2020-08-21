@@ -13,12 +13,12 @@ The React repo (for more useful information) : https://github.com/facebook/react
 For how to install and use React, click on the website folder and read the documentation.
 
 The colour scheme used throughout the website:
-dark blue: #1d1e3e
-dark red: #641c30
-light blue: #405a67
-grey: #979797
-black: #000000
-off-white: #fffdfb
+- dark blue: #1d1e3e
+- dark red: #641c30
+- light blue: #405a67
+- grey: #979797
+- black: #000000
+- off-white: #fffdfb
 
 Some ideas for future work and improvements:
 - Add future project overviews/team member information as required
@@ -27,4 +27,3 @@ Some ideas for future work and improvements:
 - Improve overall aesthetics of website to increase professionalism
 - Make website more functional for smaller browser windows (ex: team member information boxes, student testimonies)
 - Make website mobile compatible
-- Center footer information

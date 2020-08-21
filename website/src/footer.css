@@ -18,7 +18,7 @@
   background-color: #1d1e3e;
   color: #FFFDFB;
   vertical-align: middle;
-  text-align: left;
+  text-align: center;
 }
 
 .footer img{
@@ -39,4 +39,5 @@
   color: #FFFDFB;
   text-align: center;
   margin:auto;
+  text-decoration: underline;
 }

@@ -33,7 +33,7 @@
 .quote-name{
   text-align: left;
   font-size: 24px;
-  margin:0
+  margin:0;
 }
 
 .quote-description{
@@ -86,15 +86,15 @@
     text-transform: uppercase;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
     font-weight: bold;
-    
+
   }
-  
+
   .joinUsBtn:hover {
     box-shadow: 1px 1px 25px 10px rgba(128, 0, 0, 0.4);
     text-decoration: none;
     color:#1d1e3e;
   }
-  
+
   .joinUsBtn:before {
     content: "";
     position: absolute;
@@ -110,11 +110,11 @@
     );
     transition: all 650ms;
   }
-  
+
   .joinUsBtn:hover:before {
     left: 100%;
   }
-  
+
 
 .joinUsSection {
     display : flex;
