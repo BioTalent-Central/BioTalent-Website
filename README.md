@@ -9,12 +9,12 @@ We learned ReactJS using a free online tutorial that can be found at the followi
 https://scrimba.com/g/glearnreact
 
 The colour scheme used throughout the website:
-dark blue: #1d1e3e
-dark red: #641c30
-light blue: #405a67
-grey: #979797
-black: #000000
-off-white: #fffdfb
+- dark blue: #1d1e3e
+- dark red: #641c30
+- light blue: #405a67
+- grey: #979797
+- black: #000000
+- off-white: #fffdfb
 
 Some ideas for future work and improvements:
 - Add future project overviews/team member information as required
