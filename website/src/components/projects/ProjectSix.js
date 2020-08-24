@@ -18,7 +18,7 @@ function ProjectSix() {
 
 	      <div className="proj-images">
   			<Card>
-	    	<a href="biomakerspace.ca">
+	    	<a href="https://biomakerspace.ca">
 	    		<CardImg top src="/images/project-six/bms-logo.png"/>
 	    	</a>
 	    	<CardBody>
