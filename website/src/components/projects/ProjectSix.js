@@ -1,4 +1,5 @@
 import React from 'react';
+import { Card, CardBody, CardImg } from "shards-react"
 
 
 import ProjTitle from "./proj-components/ProjTitle"
@@ -13,10 +14,26 @@ function ProjectSix() {
 		<div className="Projects">
 
 	      <ProjTitle projTitle="Virtual BioMakerSpace"/>
-	      <ProjImage projImage="/images/project-six/bms-logo.png"
-	      	description="The Virtual BioMakerSpace is an online platform which will be used to support and simulate the vision of the future physical space of the BioMakerSpace. It will give access to virtual simulators, online workshops, and will showcase the biotechnology projects at the University of Ottawa."
-				motivation="We are creating the Virtual BioMakerSpace to help develop biotechnology leaders of tomorrow by providing a learning platform to expose more students to the field of biotechnology through a virtual space."
-	      />
+
+
+	      <div className="proj-images">
+  			<Card>
+	    	<a href="biomakerspace.ca">
+	    		<CardImg top src="/images/project-six/bms-logo.png"/>
+	    	</a>
+	    	<CardBody>
+				<div className="description">
+					<h2>Overview</h2>
+		        	<p>The Virtual BioMakerSpace is an online platform which will be used to support and simulate the vision of the future physical space of the BioMakerSpace. It will give access to virtual simulators, online workshops, and will showcase the biotechnology projects at the University of Ottawa.</p>
+		        	<br/>
+		        	<br/>
+		        	<h3>Project Motivation</h3>
+		        	<p>We are creating the Virtual BioMakerSpace to help develop biotechnology leaders of tomorrow by providing a learning platform to expose more students to the field of biotechnology through a virtual space.</p>
+		        	
+        		</div>
+			</CardBody>
+		</Card>
+    	</div>
 
 	      <p className="team-members">Research Assistants</p>
 

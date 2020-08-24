@@ -13,7 +13,7 @@ export default class Footer extends React.Component{
               <h6>Contact Us</h6>
               <p>(613) 562-5741</p>
               <p>3101 - 55 Laurier Avenue East,<br/>Ottawa ON K1N 6N5 Canada</p>
-              <p>biotalentcentral@gmail.com</p>
+              <p>biotalent@uottawa.club</p>
             </div>
             <div className="three columns">
               <h6>Learn More</h6>
