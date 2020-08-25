@@ -12,7 +12,7 @@ import './footer.css'
 
 import HomeNav from "./components/Home/navbar2"
 
-//import NavBar from "./components/NavBar"
+
 import Project from "./components/Project"
 import ProjectOne from "./components/projects/ProjectOne"
 import ProjectTwo from "./components/projects/ProjectTwo"
