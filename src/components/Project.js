@@ -4,7 +4,6 @@ import { Card, CardBody, CardImg } from "shards-react"
 import ProjTitle from "./projects/proj-components/ProjTitle"
 import Slideshow from "./Slideshow"
 import ProjDescription from "./projects/proj-components/ProjDescription"
-import Supervisor from "./projects/proj-components/Supervisor"
 import TeamMembers from "./projects/proj-components/TeamMembers"
 
 function Project() {

@@ -26,7 +26,7 @@ function BioTalentPage() {
                             <h2>What is Bioeconomy?</h2>
                             <p>As revealed by the name, bioeconomy is a fusion between biology and the economy. Specifially, it relates to the economic activity derived from the use of biological resources in multiple disciplines such as health, agriculture, chemicals, etc.</p>
                             
-                            <h2>BioTalent's Impact on the uOttawa BioTalent Program</h2>
+                            <h2>BioTalent's Impact on the uOttawa BioGenie Program</h2>
                             <p>BioTalent created a safe space for students to create creative and innovative projects as well as research that can benefit Canada's bioeconomy. Financially, BioTalent's contributions include a reimbursement to the University of Ottawa at the end of the work term for 75% of the first $6000 of salary disperse, as well as 4% vacation pay and unemployment pay.</p>
                         </div>
                     </CardBody>

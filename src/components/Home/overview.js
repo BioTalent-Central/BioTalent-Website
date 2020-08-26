@@ -8,7 +8,7 @@ function Overview(){
       <Container>
         <Row>
           <Col>
-            <h1>uOttawa BioTalent</h1>
+            <h1>uOttawa BioGenie</h1>
           </Col>
         </Row>
         <Row>
