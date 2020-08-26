@@ -194,7 +194,7 @@ microplastics in our environment."
 
 	        <ProjTitle projTitle="Emerging Contaminants Policy Memo"/>
 	      <ProjImage projImage="/images/project-ten/bioenvo5.jpg"
-	      		description="Through talking to municipalities all across Ontario, representatives of marginalized communities, as well as the MECP, an increase of emerging contaminants found in our wastewater was a large concern. In order to address this issue, our team decided to use information collected from interviews to write and implement this policy memo. We aim to make it the most effective and accomodating for all, however, understand that due to limitations there is still much to be done."
+	      		description="Through talking to municipalities all across Ontario, representatives of marginalized communities, as well as the MECP, an increase of emerging contaminants found in our wastewater was a large concern. In order to address this issue, our team decided to use information collected from interviews to write and implement this policy memo. We aim to make it the most effective and accommodating for all, however, understand that due to limitations there is still much to be done."
 		      	motivation="We are doing this because there is an abundant amount of emerging contaminants affecting public health, cultural practices and environmental concerns - and someone needs to voice concerns and possible solutions!"
 	      />
 
