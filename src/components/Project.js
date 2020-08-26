@@ -1,4 +1,5 @@
 import React from "react"
+import { Card, CardBody, CardImg } from "shards-react"
 
 import ProjTitle from "./projects/proj-components/ProjTitle"
 import Slideshow from "./Slideshow"
@@ -10,7 +11,7 @@ function Project() {
 	return(
 		<div>
 			
-			<ProjTitle projTitle="uOttawa BioTalent Projects Summer 2020"/>		
+			<ProjTitle projTitle="uOttawa BioGenie Projects Summer 2020"/>		
 
 			<Slideshow />
 
@@ -23,12 +24,12 @@ function Project() {
 			during this term."/> 
 
 			<div className="central-team">
-				<h2>BioTalent Central Team</h2>
-				<p>The BioTalent Central team is working together to provide support to any of the 9 teams
+				<h2>BioGenie Central Team</h2>
+				<p>The BioGenie Central team is working together to provide support to any of the 9 teams
 				completing their respective research projects by contributing their various skills in the fields
 				of software engineering and commerce. Apart from providing assistance, these four students are the
 				ones responsible for developing the website you are currently looking at! Finally, they play an important
-				role in working with professor Mads Kaern to extend the lifetime of the uOttawa BioTalent program
+				role in working with professor Mads Kaern to extend the lifetime of the uOttawa BioGenie program
 				beyond the Summer 2020 co-op work term.</p> 
 			</div>
 
@@ -80,9 +81,19 @@ function Project() {
 
 		  	<p className="team-members">Supervisor</p>
 
-		  		<Supervisor name="Mads Kaern, BSc, MSc, PhD"
-		  			work="Department of Cellular and Molecular Medecine, University of Ottawa"
-		  			email="mkaern@uottawa.ca"/>
+		  		<div className="proj-images">
+			  		<Card>
+				    	<CardImg top src="/images/Kaern.jpg"/>
+				    	<CardBody>
+							<div className="description">
+								<h2>Mads Kaern, BSc, MSc, PhD</h2>
+					        	<p>Department of Cellular and Molecular Medecine, University of Ottawa</p>
+					        	<p>mkaern@uottawa.ca</p>
+			        		</div>
+						</CardBody>
+					</Card>
+			    </div>
+			<br />
 
 		</div>
 
