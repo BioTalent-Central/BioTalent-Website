@@ -10,7 +10,7 @@ https://scrimba.com/g/glearnreact
 
 The React repo (for more useful information): https://github.com/facebook/react
 
-For how to install and use React, click on the website folder and read the documentation.
+For how to install and use React: https://create-react-app.dev/docs/getting-started/
 
 The colour scheme used throughout the website:
 - dark blue: #1d1e3e
