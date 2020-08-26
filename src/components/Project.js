@@ -80,7 +80,7 @@ function Project() {
 
 		  	<p className="team-members">Supervisor</p>
 
-		  		<div className="proj-images">
+		  		<div className="mads">
 			  		<Card>
 				    	<CardImg top src="/images/Kaern.jpg"/>
 				    	<CardBody>

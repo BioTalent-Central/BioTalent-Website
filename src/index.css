@@ -95,7 +95,6 @@ TEAM MEMBER IMAGES AND NAMES
 }
 
 .headshots {
-  width:150px;
   object-fit:cover;
   float: center;
   padding: 0px;
@@ -174,6 +173,13 @@ SUPERVISOR NAME AND INFO
   color: #1d1e3e;
 	font-size: 20px;
 	font-family: Copperplate;
+}
+
+.mads {
+  max-width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

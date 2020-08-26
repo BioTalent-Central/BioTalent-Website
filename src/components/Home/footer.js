@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './images/BiotalentLogo.png'
+import Logo from './images/uOBGlogo.png'
 import {NavLink} from 'shards-react'
 
 
