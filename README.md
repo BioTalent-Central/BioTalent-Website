@@ -1,7 +1,7 @@
 # BioTalent-Website
 
 Purpose of the website:
-This website was created to promote the uOttawa BioTalent program and to generate future interest to extend the lifetime of the program beyond the Summer 2020 work term. The website primarily focuses on showcasing the projects that students worked on during the first summer of operation.
+This website was created to promote the uOttawa BioGenie program and to generate future interest to extend the lifetime of the program beyond the Summer 2020 work term. The website primarily focuses on showcasing the projects that students worked on during the first summer of operation.
 
 How the website was created:
 The website was developed using ReactJS, a widely used front end and back end development framework, allowing websites to have a more cohesive look and increasing the readability of the code.
