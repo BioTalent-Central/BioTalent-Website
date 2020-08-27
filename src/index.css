@@ -29,6 +29,10 @@ PROJECT PAGES
   border-color: #1d1e3e;
 }
 
+.proj-images h2{
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .proj-images{
   padding: 10px 100px;
 }
@@ -76,6 +80,10 @@ TEAM MEMBER IMAGES AND NAMES
 .member{
   padding: 10px;
   width: 25%;
+}
+
+.member-card h2{
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .member-card{
