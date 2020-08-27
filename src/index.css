@@ -194,12 +194,15 @@ SLIDESHOW
 }
 
 .each-slide > div {
-  display: flex;
+  display: block;
   align-items: flex-end;
   justify-content: center;
   background-size: cover;
-  height: 800px;
+  width: 75%;
+	height: 500px;
   padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .each-slide span{
