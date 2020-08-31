@@ -33,7 +33,7 @@ function ProjectSeven() {
 		  					uni="the University of Ottawa"/>
 			</div>
 			<div className="member">
-				<TeamMembers image="/images/project-seven/Kamal.PNG"
+				<TeamMembers image="/images/project-seven/Saad.png"
 							member="Saad Kamal" 
 		  					year="Third" 
 		  					program="Biomedical Mechanical Engineering"
